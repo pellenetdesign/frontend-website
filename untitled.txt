@@ -1,5 +1,3 @@
 Hello World..
 
 And hello Again!
-
-.. and AGAIN!
