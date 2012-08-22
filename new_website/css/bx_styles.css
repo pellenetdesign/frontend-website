@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document */
+.thumbs a{
+	text-align:center;
+	background:url(../images/bg/bg.png) repeat;
+	float:left;
+	width:2em;
+	height:2em;
+	margin-right:0.5%;
+	line-height:1.50em;
+	overflow:hidden;
+	border-radius:5em;
+	box-shadow: 0 -0.3em 0.4375em -0.2em #555, inset 0 0.1875em 0.275em -0.225em #fff;
+	font-size:2.8125em;}
+/*Fixed width to change with @media*/
+div.slider1{
+	width:98%;
+	clear:both;
+	}
+ul#slider1{
+	text-align:left;
+	color:#3d4b51;}
+ul#slider1 li{
+	background:url(../images/bg/bg_lighter_lighter.png) repeat;
+	padding:15px 0 0 0;
+	margin:0;
+	height:290px;
+	overflow:hidden;}
+.bx-window{
+	overflow:hidden;}
+.bx-wrapper{
+	overflow:hidden;
+	background:url(../images/bg/bg_lighter_lighter.png) repeat;
+	box-shadow: 0 0 0 1px #C2E4EF, 0 0 0 3px #5A6A6F, 0 12px 12px -2px #5A6A6F;
+	margin:0 auto;}
+.pager-active{
+	font-weight:900;
+	line-height:60px;
+	color:#A3B5BE;}
+
+/*-------Slider 1------*/
+img.pellePose{
+	width:405px;
+	height:500px;
+	background-size:100%;}
+p.speekCloud_first{
+	font-size:1.5625em;
+	background:#e9f8fe;
+	border-radius:35px;
+	line-height:35px;
+	padding:15px 10px 10px 10px;
+	margin-left:-25px;
+	text-align:center;
+	box-shadow: -4px 5px 4px 1px #718c9b;
+	z-index:10;
+	opacity:0.5;}
+.speekCloud_middle{
+	font-size:2.5em;
+	margin-left:-20px;
+	background:#e9f8fe;
+	border-radius:60px;
+	line-height:120px;
+	text-align:center;
+	padding:0 10px;
+	width:100px;
+	box-shadow: -4px 5px 4px 1px #718c9b;
+	z-index:11;
+	opacity:0.75;}
+div.speekCloud_last{
+	background:#e9f8fe;
+	border-radius:25px;
+	text-align:center;
+	line-height:40px;
+	margin-top:-40px;
+	box-shadow: -4px 5px 4px 1px #718c9b;
+	opacity:0.2;}
+#onetorule{
+	margin-top:-130px;
+	}
+#onetorule p{
+	font-size:0.85em;}
+#onetorule p.fontHandwrittenBold{
+	font-size:1.5625em;}
+/*-------Slider 2------*/
+img.pellePosePose{
+	width:305px;
+	height:375px;
+	z-index:11;}
+p.titleResume{
+	font-size:0.85em;
+	float:left;
+	margin:0;
+	padding:0 15px;}
+p.yearResume{
+	font-size:0.85em;
+	float:right;
+	margin:0;
+	padding:0 30px;}
+article#resume{
+	height:100%;
+	overflow:visible;
+	z-index:15;}
+table a:hover{
+	color:#4c616b;}
+tbody#cursus{
+	width:200px;}
+/*-------slider 3-------*/
+li#sliderpage3{
+	text-align:center;}
+img.pellePosePosePose{
+	width:248px;
+	height:333px;}
+img.StockngoAfter{
+	width:200px;
+	height:200px;}
+img.StockngoBefore{
+	width:200px;
+	height:200px;}
+article h3{
+	line-height:75px;}
