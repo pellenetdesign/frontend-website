@@ -1,0 +1,101 @@
+/*
+  960 Grid System ~ Text CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+  font: 100% 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+pre,
+code {
+  font-family: 'DejaVu Sans Mono', Menlo, Consolas, monospace;
+}
+
+hr {
+  border: 0 #ccc solid;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+
+h1 {
+  font-size: 1.5625em;
+}
+
+h2 {
+  font-size: 1.4375em;
+}
+
+h3 {
+  font-size: 1.3125em;
+}
+
+h4 {
+  font-size: 1.875em;
+}
+
+h5 {
+  font-size: 1.0625;
+}
+
+h6 {
+  font-size: 0.9375em;
+}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: disc;
+}
+
+li {
+  margin-left: 1.875em;
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+  margin-bottom: 20px;
+}
+.marginBottomHalf{
+	margin-bottom:10px}
+.marginBottomQuarter{
+	margin-bottom:5px}
+.noMarginBottom{
+	margin-bottom:0px;}
+.lineHeight100{
+	line-height:100%;}
+/*---------------My extra's--------------*/
+.alignLeft{
+	text-align:left;}
+.alignRight{
+	text-align:right;}
+.alignCenter{
+	text-align:center;}
