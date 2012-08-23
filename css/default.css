@@ -106,7 +106,6 @@ background: #ffffff;
 div#background{
 	background:url(../images/bg/bg.png) repeat;
 	overflow:visible;
-	height: 120%;
 	padding-bottom:1.5625em;
 	border-radius:0.625em;
 	margin-top:1.875em;
@@ -200,7 +199,9 @@ article.welcomeText{
 /*-------------Footer-----------------------*/
 
 footer{
-	margin:0}
+	height:100%;
+	background: transparent;
+}
 #footerbackground{
 	background:url(../images/bg/logo_960_3.png) no-repeat;
 	background-size:100%;}

@@ -270,8 +270,9 @@
 			<!--end ul#slider1-->
 			</ul>	
             
-           <!-- </div>-->
-    <!--end id="maincontent"-->    
+           
+    <!--end id="maincontent"-->  
+  
     	</div>
 	</section>
 
@@ -281,10 +282,9 @@
 
 
     
-    <footer class="grid_16">
-    <section>	
+    <footer class="grid_16 noMargin noPadding">
     <h1 class="navTitle">Social Networking, Miscellanous Links &amp; Contact Form</h1>
-        <nav>
+       	<nav>
         <h1 class="navTitle">Social networking</h1>
             <ul id="socialmenu">
                 <li class="socialmenu">
@@ -408,7 +408,6 @@
                     </nav>
                 </aside>
             </article>
-    </section>
   </footer>
 
 <!--end container_16/960 wrap-->
