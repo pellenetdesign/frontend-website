@@ -99,8 +99,9 @@ Body : #99C9DF
 
 /*-----------End Fonts-------------*/
 html, body{
+background: #ffffff;
 	color:#27333a;
-    font-family: 'DroidSansRegular','DroidSansBold';
+    font-family: 'DroidSansRegular','DroidSansBold', sans-serif;
 	/*text-shadow: -1px -1px 0px #D7E7EE;*/}
 div#background{
 	background:url(../images/bg/bg.png) repeat;
@@ -123,18 +124,18 @@ footer ::-webkit-selection { background:#BFEBFF;}
 
 /*Font classes*/
 .fontMainRegular{
-    font-family: 'DroidSansRegular';}
+    font-family: 'DroidSansRegular', sans-serif;}
 .fontMainBold{
-    font-family: 'DroidSansBold';}
+    font-family: 'DroidSansBold', sans-serif;}
 .fontHandwrittenRegular{
-    font-family: 'AmaticSCRegular';}
+    font-family: 'AmaticSCRegular', sans-serif;}
 .fontHandwrittenBold{
-    font-family: 'AmaticSCBold';}
+    font-family: 'AmaticSCBold', sans-serif;}
 .fontHandwritten{
-    font-family: 'AmaticSCBold';
+    font-family: 'AmaticSCBold', sans-serif;
     font-weight: 400;}
 .fontTypewriter{
-    font-family: 'MyUnderwoodRegular';}
+    font-family: 'MyUnderwoodRegular', sans-serif;}
 /*End Font classes*/
 /*--------Header---------*/
 
@@ -146,12 +147,12 @@ header#logotype{
 	margin:0 1%;
 	width:98%;}
 nav#mainMenu{
-    font-family: 'MyUnderwoodRegular';
+    font-family: 'MyUnderwoodRegular', sans-serif;
 	margin-left:0.03125%;
 	margin-right:-0.1875%;}
 ul li.mainMenu{
 	text-align:center;
-	background-color:#fff;
+	background-color:#ffffff;
 	float:left;
 	width:6.25em;
 	height:6.25em;
@@ -237,13 +238,7 @@ li.socialmenu a img{
 	float:left;
 	}
 /* hack Chrome / Safari */
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	.footermenu{
-	font-size:1em;
-	z-index:10;
-	float:left;
-	}
-}
+
 .footermenu p{
 	padding-bottom:30px;}
 li.contactLinks a:hover{

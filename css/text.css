@@ -14,41 +14,35 @@ body {
 
 pre,
 code {
-  font-family: 'DejaVu Sans Mono', Menlo, Consolas, monospace;
+  font-family: 'DejaVu Sans Mono', Menlo, Consolas, sans-serif;
 }
 
-hr {
-  border: 0 #ccc solid;
-  border-top-width: 1px;
-  clear: both;
-  height: 0;
-}
 
 /* `Headings
 ----------------------------------------------------------------------------------------------------*/
 
 h1 {
-  font-size: 1.5625em;
+  font-size: 156.25%;
 }
 
 h2 {
-  font-size: 1.4375em;
+  font-size: 143.75%;
 }
 
 h3 {
-  font-size: 1.3125em;
+  font-size: 131.25%;
 }
 
 h4 {
-  font-size: 1.875em;
+  font-size: 187.5%;
 }
 
 h5 {
-  font-size: 1.0625;
+  font-size: 106.25%;
 }
 
 h6 {
-  font-size: 0.9375em;
+  font-size: 93.75%;
 }
 
 /* `Spacing
@@ -59,40 +53,15 @@ ol {
 }
 
 ul {
-  list-style: disc;
+	list-style-type: none;
 }
-
-li {
-  margin-left: 1.875em;
+/*'Anchorage
+-------------------------------------------*/
+a{
+	text-decoration: none;
 }
-
-p,
-dl,
-hr,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ol,
-ul,
-pre,
-table,
-address,
-fieldset,
-figure {
-  margin-bottom: 20px;
-}
-.marginBottomHalf{
-	margin-bottom:10px}
-.marginBottomQuarter{
-	margin-bottom:5px}
-.noMarginBottom{
-	margin-bottom:0px;}
-.lineHeight100{
-	line-height:100%;}
-/*---------------My extra's--------------*/
+/*Text alignment standards
+-----------------------------------------------------*/
 .alignLeft{
 	text-align:left;}
 .alignRight{

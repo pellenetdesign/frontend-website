@@ -10,7 +10,7 @@
 <!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
 <!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
 
-<!----//-----HTML5 Polyfill for <IE9------//----->
+<!--//-HTML5 Polyfill for <IE9-//-->
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -84,10 +84,11 @@
                 <h6 class="fontHandwrittenBold">I'm a webdesigner, photographer, musician &amp; I'm absolutely bonkers about CSS, HTML5, jQuery and all things Apple.
                 </h6>
             
-                <p class="fontMainRegular">
+                
+			</hgroup>
+			<p class="fontMainRegular">
                 For the years in the past, the tedious work of forcing websites to appear correctly in all browsers, all resolutions &amp; all mobile devices has been a mind-boggling time-spender.  We are entering a new era, where the work of 'Numerous JavaScript-traps &amp; Anti-Semantic IE-bugfixes' is over. We are able create online applications comfortable in ALL medias, with ease. This is more a philosophy than pure development, it's called 'Responsive Design'.
-                </p>
-			</hgroup>	
+                </p>	
 		</article>
 	</header>
     <!-- main content-->
@@ -98,7 +99,7 @@
         
         
         
-            <nav class="push_1" id="secondMenuPosition" class="floatLeft">
+            <nav class="push_1" id="secondMenuPosition">
         <h1 class="navTitle">Slider Navigation</h1>
                 <ul class="thumbs">
                     <li class="secondMenu">
@@ -128,7 +129,7 @@
               <li id="sliderpage1" class="grid_16 sliderPagePosition">
               	<article>
                     	<h1 class="navTitle">What makes Jarl tick</h1>
-						<aside class="grid_6 push_1 floatLeft">
+						<aside class="grid_6 floatLeft">
                         	<h1 class="navTitle">A photo of a surprised Jarl</h1>
                             <img src="images/photos/pellePose.png" alt="Jarl Pelle Helin Photo" class="pellePose">
                         </aside>
@@ -143,17 +144,15 @@
                             </div>
                         </aside>
                         <div id="onetorule" class="grid_7 floatLeft">
-							<hgroup>
+							
 								<h5 class="noMargin padding_Vert_5">
 									One page to rule them all
-								</h5>
-                                <p>
+								</h5>							 <p>
                                 Using Responsive &amp; Progressive Design as the cornerstone building robust web-pages for the future, it becomes easy to alter content of a website. Add Drupal, HTML5, jQuery &amp; a few Polyfills to the brew and you get a very powerful, dynamic &amp; fluid website. 
                                 <p>Need a blog, a webportal, a forum or a secure paysite? It has to apply perfectly to your SMART-phone, your tablet and to your desktop?</p> 
                                 <h6 class="fontHandwritten fontSize_140">
                                 I'm here to create your page, the one to rule them all!
                                 </h6>   
-							</hgroup>
                         </div>
 				</article> 
               <!-- Slide 1 end-->
