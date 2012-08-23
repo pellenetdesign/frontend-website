@@ -47,12 +47,14 @@ $('ul#socialmenu li a').hover(function(){
 //--------------Main menu btns-------------//
 $('li.mainMenu').hover(function(){
 	//alert('It works!');
+	// positions absolute!!
 	$(this).stop().animate({
 		width:'7.5em',
 		height:'7.5em',
 		marginRight:'-0.625em',
 		marginLeft:'1.25em'
 		});
+	//hover, text go little - callback :  
 	$(this).children('a').stop().animate({
 		lineHeight:'12.8125em',
 		fontSize:'0.625em'});
@@ -76,7 +78,7 @@ $('li.mainMenu').hover(function(){
 			
 		});
 
-//onClick:Scrollto
+//onClick:Scrollto:contact
 $('li.mainMenu:nth-child(2)').click(function(){
 	//alert('It works!');
 	$.scrollTo( 'form#contactPellenetdesign', 2500, 'easeOutCirc');

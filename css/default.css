@@ -156,6 +156,7 @@ ul li.mainMenu{
 	float:left;
 	width:6.25em;
 	height:6.25em;
+	margin-left: 1.875em;
 	margin-top:-3.4375em;
 	overflow:hidden;
 	border-radius:6.25em;}

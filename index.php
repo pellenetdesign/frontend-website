@@ -57,8 +57,9 @@
 	<header id="logotype" class="grid_16">
         <h1 class="navTitle">Home of Pellenetdesign</h1>
     
-        <nav id="mainMenu" class="grid_8">
-        <h1 class="navTitle">Main Page Navigation</h1>
+        
+       <nav id="mainMenu" class="grid_8">
+        	<h1 class="navTitle">Main Page Navigation</h1>
             <ul>
                 <li class="mainMenu">
                 	<a href="#" title="home">
@@ -77,7 +78,7 @@
                 </li>
             </ul>
         </nav>
-        
+                
         <article id="welcome" class="grid_7 floatRight">
             <hgroup>
                 <h1 id="hello" class="fontMainBold">My name is Jarl</h1>
@@ -91,6 +92,8 @@
                 </p>	
 		</article>
 	</header>
+	<div class="clearBoth"></div>
+
     <!-- main content-->
     <section>
     
