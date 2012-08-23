@@ -1,0 +1,407 @@
+/* `XHTML, HTML4, HTML5 Reset
+----------------------------------------------------------------------------------------------------*/
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+dialog,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+meter,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+rp,
+rt,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video,
+xmp {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+/*
+  Override the default (display: inline) for
+  browsers that do not recognize HTML5 tags.
+
+  IE8 (and lower) requires a shiv:
+  http://ejohn.org/blog/html5-shiv
+*/
+  display: block;
+}
+
+b,
+strong {
+/*
+  Makes browsers agree.
+  IE + Opera = font-weight: bold.
+  Gecko + WebKit = font-weight: bolder.
+*/
+  font-weight: bold;
+}
+
+img {
+  color: transparent;
+  font-size: 0;
+  vertical-align: middle;
+/*
+  For IE.
+  http://css-tricks.com/ie-fix-bicubic-scaling-for-images
+*/
+  -ms-interpolation-mode: bicubic;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+li {
+/*
+  For IE6 + IE7:
+
+  "display: list-item" keeps bullets from
+  disappearing if hasLayout is triggered.
+*/
+  display: list-item;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th,
+td,
+caption {
+  font-weight: normal;
+  vertical-align: top;
+  text-align: left;
+}
+
+q {
+  quotes: none;
+}
+
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+sub,
+sup,
+small {
+  font-size: 75%;
+}
+
+sub,
+sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+svg {
+/*
+  For IE9. Without, occasionally draws shapes
+  outside the boundaries of <svg> rectangle.
+*/
+  overflow: hidden;
+}
+
+
+/*----My modifications-------*/
+a{
+	text-decoration:none;
+	color:#000000;}
+	
+/*--------Forms---------*/
+form{
+	padding:10px;
+	text-align:center;}
+input{
+	float:left;
+	margin:5px 0;
+	clear:both;
+	text-align:left;}
+input#name{
+	width:75%;}
+input#email{
+	width:75%;}
+input#url{
+	width:75%;}
+input#submit{
+	margin:15px 90px 15px 0;
+	float:right;
+	cursor:pointer;
+	clear:both;}
+label{
+	float:left;
+	clear:both;
+	margin:10px 0 0 20px;
+	text-align:center;}
+textarea{
+	float:left;
+	clear:both;
+	width:75%;
+	text-align:left;}
+
+/*---html5 placeholder styles---*/
+
+input::-webkit-input-placeholder {
+    color:   #666;
+    margin-left: inherit; /* probably not needed */
+}
+input:-moz-placeholder {
+    color:  #666;
+}
+/* on hover */
+input:hover::-webkit-input-placeholder {
+    color: #000;
+    margin-left:10px;
+}
+input:hover:-moz-placeholder {
+    color: #000;
+}
+/*-------Focus----------*/
+input:focus, textarea:focus{
+}
+img{
+	background-size:100%;}
+/*Floated elements
+--------------------------------------------------------------------------*/
+.clearBoth{
+	clear: both;
+}
+.floatLeft{
+	float:left;}
+.floatRight{
+	float:right;}
+.clearLeft{
+	clear:left}
+.clearRight{
+	clear:right;}
+/*Margins and paddings
+--------------------------------------------------------------------------*/
+.noMargin{
+	margin: 0;
+}
+.noPadding{
+	padding:0;
+}
+.padding_Vert_2{
+	padding: 2% 0;
+}
+
+.padding_Vert_5{
+	padding: 5% 0;
+}
+.padding_Vert_8{
+	padding: 8% 0;
+}
+.padding_Vert_10{
+	padding: 10% 0;
+}
+.padding_Vert_13{
+	padding: 13% 0;
+}
+.padding_Vert_15{
+	padding: 15% 0;
+}
+.padding_Vert_18{
+	padding: 18% 0;
+}
+/*Font Sizes
+--------------------------------------------------------------------------*/
+.fontSize_300{
+	font-size: 300%;
+}
+.fontSize_290{
+	font-size: 290%;
+}
+.fontSize_280{
+	font-size:280%;
+}
+.fontSize_270{
+	font-size: 270%;
+}
+.fontSize_260{
+	font-size: 260%;
+}
+.fontSize_250{
+	font-size: 250%;
+}
+.fontSize_240{
+	font-size: 240%;
+}
+.fontSize_230{
+	font-size: 230%;
+}
+.fontSize_220{
+	font-size:220%;
+}
+.fontSize_220{
+	font-size: 220%;
+}
+.fontSize_210{
+	font-size: 210%;
+}
+.fontSize_200{
+	font-size: 200%;
+}
+.fontSize_190{
+	font-size: 190%;
+}
+.fontSize_180{
+	font-size: 180%;
+}
+.fontSize_170{
+	font-size: 170%;
+}
+.fontSize_150{
+	font-size: 150%;
+}
+.fontSize_140{
+	font-size: 140%;
+}
+.fontSize_130{
+	font-size: 130%;
+}
+.fontSize_120{
+	font-size: 120%;
+}
+.fontSize_110{
+	font-size: 110%;
+}
+.fontSize_100{
+	font-size: 100%;
+}
+.fontSize_90{
+	font-size: 90%;
+}
+.fontSize_80{
+	font-size: 80%;
+}
+.fontSize_70{
+	font-size: 70%;
+}
+.fontSize_60{
+	font-size: 60%;
+}
+.fontSize_50{
+	font-size: 50%;
+}
+.fontSize_40{
+	font-size: 40%;
+}
+.fontSize_30{
+	font-size: 30%;
+}
+/*img standards
+-----------------------------------------------------*/
+img{
+	width:100%;
+	height:100%;
+	background-size:100%;
+}

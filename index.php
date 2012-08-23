@@ -16,9 +16,9 @@
 <![endif]-->
 
 <title>Welcome to Pellenetdesign</title>
-<link rel="stylesheet" href="css/960/reset.css">
-<link rel="stylesheet" href="css/960/960.css">
-<link rel="stylesheet" href="css/960/text.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/960fluid.css">
+<link rel="stylesheet" href="css/text.css">
 <link rel="stylesheet" href="js/captcha/captcha.css">
 <link rel="stylesheet" href="css/default.css">
 <link rel="stylesheet" href="css/bx_styles.css">
@@ -54,7 +54,7 @@
 <body>
 <!--960 wrap-->
 <div id="background" class="container_16">
-	<header id="logotype" class="grid_16 pull_2">
+	<header id="logotype" class="grid_16">
         <h1 class="navTitle">Home of Pellenetdesign</h1>
     
         <nav id="mainMenu" class="grid_8">
@@ -78,7 +78,7 @@
             </ul>
         </nav>
         
-        <article id="welcome" class="grid_7 push_4 floatRight">
+        <article id="welcome" class="grid_7 floatRight">
             <hgroup>
                 <h1 id="hello" class="fontMainBold">My name is Jarl</h1>
                 <h6 class="fontHandwrittenBold">I'm a webdesigner, photographer, musician &amp; I'm absolutely bonkers about CSS, HTML5, jQuery and all things Apple.
@@ -94,7 +94,7 @@
     <section>
     
         <h1 class="navTitle">Jarl Explains His way Of Working</h1>
-    	<div id="mainContent" class="grid_16">
+    	<div id="mainContent">
         
         
         
@@ -121,57 +121,56 @@
             
             
             
-        <div class="slider1">
+        <!--<div class="slider1">-->
             <ul id="slider1">
             
-              <!-- Slider 1 start-->
-              <li id="sliderpage1" class="grid_14 sliderPagePosition">
+              <!-- Slide 1 start-->
+              <li id="sliderpage1" class="grid_16 sliderPagePosition">
               	<article>
                     	<h1 class="navTitle">What makes Jarl tick</h1>
-						<aside class="grid_6 pull_1 floatLeft">
+						<aside class="grid_6 push_1 floatLeft">
                         	<h1 class="navTitle">A photo of a surprised Jarl</h1>
                             <img src="images/photos/pellePose.png" alt="Jarl Pelle Helin Photo" class="pellePose">
                         </aside>
                         
-                        <aside class="grid_3 pull_3 fontHandwrittenRegular">
-                            <p class="speekCloud_first grid_1 floatLeft">But!</p>
+                        <aside class="grid_3 fontHandwrittenRegular">
+                            <p class="speekCloud_first floatLeft">But!</p>
                             <p class="speekCloud_middle floatLeft">
                                 ..OH MY?!
                             </p>
-                            <div class="speekCloud_last grid_1 floatLeft">
-                                ..
+                            <div class="speekCloud_last floatLeft">
+                                ...
                             </div>
                         </aside>
                         <div id="onetorule" class="grid_7 floatLeft">
 							<hgroup>
-								<h4>
+								<h5 class="noMargin padding_Vert_5">
 									One page to rule them all
-								</h4>
+								</h5>
                                 <p>
                                 Using Responsive &amp; Progressive Design as the cornerstone building robust web-pages for the future, it becomes easy to alter content of a website. Add Drupal, HTML5, jQuery &amp; a few Polyfills to the brew and you get a very powerful, dynamic &amp; fluid website. 
                                 <p>Need a blog, a webportal, a forum or a secure paysite? It has to apply perfectly to your SMART-phone, your tablet and to your desktop?</p> 
-                                <p class="fontHandwrittenBold">
+                                <h6 class="fontHandwritten fontSize_140">
                                 I'm here to create your page, the one to rule them all!
-                                </p>   
+                                </h6>   
 							</hgroup>
                         </div>
 				</article> 
-              <!-- Slider 1 end-->
+              <!-- Slide 1 end-->
               </li>
               
               
-              <!-- Slider 2 start-->
-			<li id="sliderpage2" class="grid_14 sliderPagePosition">
+              <!-- Slide 2 start-->
+			<li id="sliderpage2" class="grid_16 sliderPagePosition">
                 <article>
-                    <div class="grid_14">
-                                        <aside class="grid_4 pull_2">
+                                        <aside class="grid_5">
                                         	<h1 class="navTitle">A photo of Jarl</h1>
                                             <img src="images/photos/pellePosePose.png" alt="Jarl Pelle Helin Photo" class="pellePosePose">
                                         </aside>
-                                    <div id="resume" class="grid_8">
+                                    <div id="resume" class="grid_11">
                                     <h1 class="navTitle">Jarl's background</h1>
-                                        <h6>Work Experience</h6>
-                                        <table class="grid_8">
+                                        <h6 class="grid_7">Work Experience</h6>
+                                        <table class="grid_7 floatLeft clearLeft">
                                             <tbody class="cursus">
                                                 <tr>
                                                     <th>
@@ -203,9 +202,10 @@
                                                 </tr>
                                             </tbody>
                                         </table>
-                                         <h6>Education</h6>
-                                        <table class="grid_8">
-                                            <tbody class="cursus">
+                                        
+                                         <h6 id="education" class="grid_7">Education</h6>
+                                        <table class="grid_7">
+                                            <tbody>
                                                 <tr>
                                                     <th>
                                                          <a href="#">
@@ -237,14 +237,13 @@
                                             </tbody>
                                         </table>
                                     </div>
-                                </div>
-                        
+                                                        
                 </article>
-            <!-- Slider 2 end-->
+            <!-- Slide 2 end-->
 			</li>
               
-              <!-- Slider 3 start-->
-              <li id="sliderpage3" class="grid_14 sliderPagePosition">
+              <!-- Slide 3 start-->
+              <li id="sliderpage3" class="grid_16 sliderPagePosition">
               		<article>
                     	<h1 class="navTitle">An example of work done, before &amp; after</h1>
                         <div class="grid_5 floatLeft">
@@ -264,12 +263,12 @@
                             <h3 class="fontHandwrittenBold">After</h3>
                         </div>
                     </article>
-                <!-- Slider 3 end-->
+                <!-- Slide 3 end-->
               </li>
 			<!--end ul#slider1-->
 			</ul>	
             
-            
+           <!-- </div>-->
     <!--end id="maincontent"-->    
     	</div>
 	</section>
@@ -399,7 +398,7 @@
                             </li>
                             <li class="miscFooterLinks floatLeft">
                                 <h4 class="navTitle">jQuery</h4>
-                                <a href="#" title="A JavaScript framework at it's best	">
+                                <a href="#" title="A JavaScript framework at it's best">
                                     <img src="images/btn/footerbuttons/jQuery.png" alt="jQuery Link" onmouseover="desaturate(this);">
                                 </a>
                             </li>
@@ -412,7 +411,6 @@
 
 <!--end container_16/960 wrap-->
 </div>
-
 <aside class="alignCenter">
    <h1 class="navTitle">Copyright</h1>
    <p id="copyright">&copy; 2012 Pellenetdesign</p>
