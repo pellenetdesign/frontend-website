@@ -79,7 +79,7 @@
             </ul>
         </nav>
                 
-        <article id="welcome" class="grid_7 floatRight">
+        <article id="welcome" class="grid_7 push_1 floatRight">
             <hgroup>
                 <h1 id="hello" class="fontMainBold">My name is Jarl</h1>
                 <h6 class="fontHandwrittenBold margin_vert_5">I'm a webdesigner, photographer, musician &amp; I'm absolutely bonkers about CSS, HTML5, jQuery and all things Apple.
@@ -169,11 +169,11 @@
                                         	<h1 class="navTitle">A photo of Jarl</h1>
                                             <img src="images/photos/pellePosePose.png" alt="Jarl Pelle Helin Photo" class="pellePosePose">
                                         </aside>
-                                    <div id="resume" class="grid_11">
+                                    <div id="resume" class="grid_11 push_1 margin_vert_2">
                                     <h1 class="navTitle">Jarl's background</h1>
-                                        <h6 class="grid_7">Work Experience</h6>
+                                        <h5 id="experience" class="grid_7 fontSize_100">Work Experience</h6>
                                         <table class="grid_7 floatLeft clearLeft">
-                                            <tbody class="cursus">
+                                            <tbody>
                                                 <tr>
                                                     <th>
                                                          <a href="#">
@@ -205,7 +205,7 @@
                                             </tbody>
                                         </table>
                                         
-                                         <h6 id="education" class="grid_7">Education</h6>
+                                         <h6 id="education" class="grid_7 fontSize_100">Education</h6>
                                         <table class="grid_7">
                                             <tbody>
                                                 <tr>
@@ -248,21 +248,21 @@
               <li id="sliderpage3" class="grid_16 sliderPagePosition">
               		<article>
                     	<h1 class="navTitle">An example of work done, before &amp; after</h1>
-                        <div class="grid_5 floatLeft">
+                        <div class="grid_6 floatLeft">
                             <a href="#" title="Stock'nGO before work">
                                 <img src="images/slider/stockngo/StockBefore.png" alt="Stockngo Before" class="StockngoBefore">
                             </a>
-                        	<h3 class="fontHandwrittenBold">Before</h3>
+                        	<h3 class="fontHandwritten">Before</h3>
                         </div>
-                            <aside class="grid_3 pull_1 floatLeft">
+                            <aside class="grid_4 floatLeft">
                             	<h1 class="navTitle">A photo of Jarl</h1>
                                 <img src="images/photos/pellePosePosePose.png" alt="Jarl Pelle Helin Photo" class="pellePosePosePose">
                             </aside>
-                        <div class="grid_5 floatLeft">
+                        <div class="grid_6 floatLeft">
                             <a href="#" title="Stock'nGO finished product">
                                 <img src="images/slider/stockngo/StockngAfter.png" alt="Stockngo finished product" class="StockngoAfter">
                             </a>
-                            <h3 class="fontHandwrittenBold">After</h3>
+                            <h3 class="fontHandwritten">After</h3>
                         </div>
                     </article>
                 <!-- Slide 3 end-->

@@ -160,12 +160,13 @@ ul li.mainMenu{
 	overflow:hidden;
 	border-radius:6.25em;}
 ul li.mainMenu a{
-	font-size:1.3125em;
+	font-size:131.25%;
 	font-weight:900;
 	line-height:6em;
 	color:#4c616b;}
 article#welcome{
-	color:#27333a;}
+	color:#27333a;
+	margin-left: 1.5em;}
 article#welcome h6{
 	font-size:1.375em;
 	line-height:0.9em;} 
@@ -180,9 +181,13 @@ h1#hello{
 	letter-spacing:0.05em;
 	text-shadow: 0.03em 0.03em 0 #27333a, -0.03em -0.03em 0 #B5D3DF;}
 nav#secondMenuPosition{
-	margin:-5.25em 0 0 6em;}
+	margin:-5.25em 0 0 4em;}
 li.secondMenu{
-	text-shadow: 0.03em 0.03em 0 #27333a, -0.03em -0.03em 0 #B5D3DF;}
+	text-shadow: 0.03em 0.03em 0 #27333a, -0.03em -0.03em 0 #B5D3DF;
+	}
+li.secondMenu a{
+	margin-right: 0.25em;
+}
 /*HTML5 title must-have, invisible*/
 .navTitle{
 	visibility:hidden;

@@ -76,20 +76,26 @@ div.speekCloud_last{
 /*-------Slider 2------*/
 img.pellePosePose{
 	z-index:11;}
+h5#experience{
+}
 h6#education{
-	margin-top: -1em;
+	margin-top: -1.3em;
 }
 p.titleResume{
 	font-size:0.85em;
 	float:left;
 	margin:0;}
 p.yearResume{
+	font-style: italic;
 	font-size:0.85em;
 	float:right;
 	margin:0;
 	padding:0 1.875em;}
 table a:hover{
 	color:#4c616b;}
+#resume th{
+	padding:0.45em 0;
+}
 /*-------slider 3-------*/
 li#sliderpage3{
 	text-align:center;}
