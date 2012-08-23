@@ -268,20 +268,20 @@ nav#tribute{
 h6.tribute{
 	color:#4c616b;
 	overflow:hidden;
-	line-height:1.5em;}
+	line-height:120%;}
 p.tribute{
-	font-size:0.75em;
+	font-size:75%;
 	text-align:justify;
-	line-height:1.3em;}
+	line-height:130%}
 
 .footermenu li{
 	font-size:1em;
 	line-height:1.4em;}
 .footermenu li a{
-	font-weight:900;
+	font-weight:400;
 	color:#27333a;}
 .footermenu li a:hover{
-	font-weight:900;
+	font-weight:400;
 	color:#C3D5DF;}
 .contactLinks{
 	float:left;}

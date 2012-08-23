@@ -82,7 +82,7 @@
         <article id="welcome" class="grid_7 floatRight">
             <hgroup>
                 <h1 id="hello" class="fontMainBold">My name is Jarl</h1>
-                <h6 class="fontHandwrittenBold">I'm a webdesigner, photographer, musician &amp; I'm absolutely bonkers about CSS, HTML5, jQuery and all things Apple.
+                <h6 class="fontHandwrittenBold margin_vert_5">I'm a webdesigner, photographer, musician &amp; I'm absolutely bonkers about CSS, HTML5, jQuery and all things Apple.
                 </h6>
             
                 
@@ -137,7 +137,7 @@
                             <img src="images/photos/pellePose.png" alt="Jarl Pelle Helin Photo" class="pellePose">
                         </aside>
                         
-                        <aside class="grid_3 fontHandwrittenRegular">
+                        <aside class="grid_3 pull_1 fontHandwrittenRegular margin_vert_2">
                             <p class="speekCloud_first floatLeft">But!</p>
                             <p class="speekCloud_middle floatLeft">
                                 ..OH MY?!
@@ -148,12 +148,12 @@
                         </aside>
                         <div id="onetorule" class="grid_7 floatLeft">
 							
-								<h5 class="noMargin padding_Vert_5">
+								<h5 class="noMargin padding_vert_5">
 									One page to rule them all
 								</h5>							 <p>
                                 Using Responsive &amp; Progressive Design as the cornerstone building robust web-pages for the future, it becomes easy to alter content of a website. Add Drupal, HTML5, jQuery &amp; a few Polyfills to the brew and you get a very powerful, dynamic &amp; fluid website. 
                                 <p>Need a blog, a webportal, a forum or a secure paysite? It has to apply perfectly to your SMART-phone, your tablet and to your desktop?</p> 
-                                <h6 class="fontHandwritten fontSize_140">
+                                <h6 class="fontHandwritten fontSize_140 margin_vert_5">
                                 I'm here to create your page, the one to rule them all!
                                 </h6>   
                         </div>
@@ -357,7 +357,7 @@
             
 				<nav id="tribute" class="footermenu clearLeft">
                         <h6 class="tribute">A tribute goes out to the folks making the web a fun toy to play with :</h6>
-                            <p class="contactLinks tribute">Nathan Smith for his <a href="http://960.gs" title="Website prototyping">960.gs</a> &amp; his new plug <a href="http://formalize.me" title="Making forms generic">Formalize</a>, Ethan Marcotte for his book on <a href="http://www.abookapart.com/products/responsive-web-design" title="Buy it, read it">Responsive Design</a> &amp; Paul Irish for his work on the <a href="http://html5boilerplate.com" title="A great source for a complete HTML5 setup">HTML5 Boilerplate</a>, not to forget his FAB IE bugfix at <a href="http://paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither">Paulirish.com</a>. I also would like to thank Dan Cederholm for his webinars &amp; his book <a href="http://www.abookapart.com/products/css3-for-web-designers">'CSS3 for Designers'</a>, <a href="http://www.alistapart.com" title="My absolute favourite">A List Apart</a> for a boastin' website, the guys at <a href="http://www.acquia.com" title="The best Drupal community in the world">Aqcuia</a> &amp; the geeks at <a href="http://drupalize.me" title="Drupalize ME">Lullabot</a> for making great Drupal tutorials.
+                            <p class="contactLinks padding_vert_5 tribute">Nathan Smith for his <a href="http://960.gs" title="Website prototyping">960.gs</a> &amp; his new plug <a href="http://formalize.me" title="Making forms generic">Formalize</a>, Ethan Marcotte for his book on <a href="http://www.abookapart.com/products/responsive-web-design" title="Buy it, read it">Responsive Design</a> &amp; Paul Irish for his work on the <a href="http://html5boilerplate.com" title="A great source for a complete HTML5 setup">HTML5 Boilerplate</a>, not to forget his FAB IE bugfix at <a href="http://paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither">Paulirish.com</a>. I also would like to thank Dan Cederholm for his webinars &amp; his book <a href="http://www.abookapart.com/products/css3-for-web-designers">'CSS3 for Designers'</a>, <a href="http://www.alistapart.com" title="My absolute favourite">A List Apart</a> for a boastin' website, the guys at <a href="http://www.acquia.com" title="The best Drupal community in the world">Aqcuia</a> &amp; the geeks at <a href="http://drupalize.me" title="Drupalize ME">Lullabot</a> for making great Drupal tutorials.
                            </p> 
 				</nav>
                 

@@ -52,20 +52,20 @@ p.speekCloud_first{
 	background:#e9f8fe;
 	border-radius:300%;
 	text-align:center;
-	padding:20%;
+	padding:35% 20%;
 	line-height: 100%;
 	box-shadow: -4px 5px 4px 1px #718c9b;
 	z-index:11;
 	opacity:0.75;}
 div.speekCloud_last{
-	padding:20%;
+	padding:10%;
 	background:#e9f8fe;
 	border-radius:300%;
-	margin: -3em 0 0 5em;
+	margin: -2em 0 0 5em;
 	line-height:50%;
 	text-align:center;
-	box-shadow: -4px 5px 4px 1px #718c9b;
-	opacity:0.5;
+	box-shadow: -4px 5px 4px 0px #718c9b;
+	opacity:0.9;
 	z-index: 9;}
 #onetorule{
 	}
