@@ -15,7 +15,7 @@
 /*Fixed width to change with @media*/
 
 ul#slider1{
-	width:98%;
+	width:100%;
 	clear:both;
 	text-align:left;
 	color:#3d4b51;}
@@ -75,27 +75,44 @@ div.speekCloud_last{
 	font-size:1.5625em;}
 /*-------Slider 2------*/
 img.pellePosePose{
+	padding-top: 5em;
 	z-index:11;}
-h5#experience{
+table#cv{
+	font-size: 100%;
+	width: 100%;
 }
-h6#education{
-	margin-top: -1.3em;
+table#cv th{
+	font-size: 110%;
+	font-weight: 700;
+	padding:1% 0
+	}
+table#cv tbody tr td{
+	border-radius: 2em;
+	padding:1em;
+	font-size: 80%;
+	width: 24%;
+	overflow: hidden;
 }
-p.titleResume{
-	font-size:0.85em;
+table#cv tbody.experience td:nth-child(odd){
+	background:url(../images/bg/bg_lighter_lighter_lighter.png) repeat;
+}
+table#cv tbody.experience td:nth-child(even){
+	background:url(../images/bg/bg_lighter_lighter_lighter_lighter.png) repeat;
+}
+table#cv tbody.education td:nth-child(odd){
+	background:url(../images/bg/bg_lighter_lighter_lighter_lighter.png) repeat;
+}
+table#cv tbody.education td:nth-child(even){
+	background:url(../images/bg/bg_lighter_lighter_lighter.png) repeat;
+}
+table#cv tbody p.titleResume{
 	float:left;
-	margin:0;}
-p.yearResume{
-	font-style: italic;
-	font-size:0.85em;
-	float:right;
-	margin:0;
-	padding:0 1.875em;}
-table a:hover{
-	color:#4c616b;}
-#resume th{
-	padding:0.45em 0;
 }
+table#cv tbody p.yearResume{
+	float: right;
+	font-style: italic;
+}
+
 /*-------slider 3-------*/
 li#sliderpage3{
 	text-align:center;}

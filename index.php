@@ -58,7 +58,7 @@
         <h1 class="navTitle">Home of Pellenetdesign</h1>
     
         
-       <nav id="mainMenu" class="grid_8">
+       <nav id="mainMenu">
         	<h1 class="navTitle">Main Page Navigation</h1>
             <ul>
                 <li class="mainMenu">
@@ -79,7 +79,7 @@
             </ul>
         </nav>
                 
-        <article id="welcome" class="grid_7 push_1 floatRight">
+        <article id="welcome" class="floatRight">
             <hgroup>
                 <h1 id="hello" class="fontMainBold">My name is Jarl</h1>
                 <h6 class="fontHandwrittenBold margin_vert_5">I'm a webdesigner, photographer, musician &amp; I'm absolutely bonkers about CSS, HTML5, jQuery and all things Apple.
@@ -165,80 +165,83 @@
               <!-- Slide 2 start-->
 			<li id="sliderpage2" class="grid_16 sliderPagePosition">
                 <article>
-                                        <aside class="grid_5">
+                                        <aside class="grid_4">
                                         	<h1 class="navTitle">A photo of Jarl</h1>
-                                            <img src="images/photos/pellePosePose.png" alt="Jarl Pelle Helin Photo" class="pellePosePose">
+                                            <img src="images/photos/pellePosePose.png" alt="Jarl Pelle Helin Photo" class="pellePosePose margin_vert_15">
                                         </aside>
-                                    <div id="resume" class="grid_11 push_1 margin_vert_2">
+                                    <div id="resume" class="grid_12 margin_vert_2">
                                     <h1 class="navTitle">Jarl's background</h1>
-                                        <h5 id="experience" class="grid_7 fontSize_100">Work Experience</h6>
-                                        <table class="grid_7 floatLeft clearLeft">
-                                            <tbody>
-                                                <tr>
-                                                    <th>
-                                                         <a href="#">
-                                                         <p class="titleResume">Independent Contractor</p><p class="yearResume">Feb 12 - Present</p>
-                                                         </a>
-                                                    </th>
-                                                </tr>
-                                                <tr>
-                                                    <th>
-                                                         <a href="#">
-                                                         <p class="titleResume">Webdesigner Freelance</p><p class="yearResume">Aug 07 - Oct 10</p>
-                                                         </a>
-                                                    </th>
-                                                </tr>
-                                                <tr>
-                                                    <th>
-                                                         <a href="#">
-                                                         <p class="titleResume">Lecturer in Graphic &amp; Webdesign</p><p class="yearResume">Sept 10 - Oct 10</p>
-                                                         </a>
-                                                    </th>
-                                                </tr>
-                                                <tr>
-                                                    <th>
-                                                         <a href="#">
-                                                         <p class="titleResume">Multimedia Designer</p><p class="yearResume">Sept 08 - Oct 09</p>
-                                                         </a>
-                                                    </th>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        
-                                         <h6 id="education" class="grid_7 fontSize_100">Education</h6>
-                                        <table class="grid_7">
-                                            <tbody>
-                                                <tr>
-                                                    <th>
-                                                         <a href="#">
-                                                         <p class="titleResume">Intensive Graphic Design &amp; Print Program</p><p class="yearResume">Oct 09 - June 10</p>
-                                                         </a>
-                                                    </th>
-                                                </tr>
-                                                <tr>
-                                                    <th>
-                                                         <a href="#">
-                                                         <p class="titleResume">Webmaster Licence</p><p class="yearResume">Sept 03 - July 04</p>
-                                                         </a>
-                                                    </th>
-                                                </tr>
-                                                <tr>
-                                                    <th>
-                                                         <a href="#">
-                                                         <p class="titleResume">Certificate in Musical Studies</p><p class="yearResume">Apr 00 - Oct 00</p>
-                                                         </a>
-                                                    </th>
-                                                </tr>
-                                                <tr>
-                                                    <th>
-                                                         <a href="#">
-                                                         <p class="titleResume">Professional Firefighter Diploma</p><p class="yearResume">Feb 96 - Mar 97</p>
-                                                         </a>
-                                                    </th>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
+                                      
+                                      <table id="cv" border="0">
+                                      	<thead>
+										  <tr>
+										    <th>Experience</th>
+										  </tr>
+                                      	</thead>
+                                      	<tbody class="experience">
+										  <tr>
+										    <td>
+										    	<a href="#">
+                                       		    <p class="titleResume">Independent Contractor</p>
+                                       		    <p class="yearResume">Feb 12 - Present</p>
+                                       		    </a>
+                                            </td>
+										    <td>
+										    	<a href="#">
+                                       		    <p class="titleResume">Webdesigner Freelance</p>
+                                       		    <p class="yearResume">Aug 07 - Oct 10</p>
+                                       		    </a>
+                                            </td>
+                                            <td>
+										    	<a href="#">
+                                       		    <p class="titleResume">Lecturer in Graphic &amp; Webdesign</p>
+                                       		    <p class="yearResume">Sept 10 - Oct 10</p>
+                                       		    </a>
+                                            </td>
+                                            <td>
+										    	<a href="#">
+                                       		    <p class="titleResume">Multimedia Designer</p>
+                                       		    <p class="yearResume">Sept 08 - Oct 09</p>
+                                       		    </a>
+                                            </td>
+										  </tr>
+                                      	</tbody>
+                                      	<thead>
+										  <tr>
+										    <th>Education</th>
+										  </tr>
+										  <tbody class="education">
+										  <tr>
+										    <td>
+										    	<a href="#">
+                                       		    <p class="titleResume">Intensive Graphic Design &amp; Print Program</p>
+                                       		    <p class="yearResume">Oct 09 - June 10</p>
+                                       		    </a>
+                                            </td>
+										    <td>
+										    	<a href="#">
+                                       		    <p class="titleResume">Webmaster Licence</p>
+                                       		    <p class="yearResume">Sept 03 - July 04</p>
+                                       		    </a>
+                                            </td>
+                                            <td>
+										    	<a href="#">
+                                       		    <p class="titleResume">Certificate in Musical Studies</p>
+                                       		    <p class="yearResume">Apr 00 - Oct 00</p>
+                                       		    </a>
+                                            </td>
+                                            <td>
+										    	<a href="#">
+                                       		    <p class="titleResume">Professional Firefighter Diploma</p>
+                                       		    <p class="yearResume">Feb 96 - Mar 97</p>
+                                       		    </a>
+                                            </td>
+										  </tr>
+                                      	</tbody>
+                                      	</thead>
+										</table>
+										
+										                                       </div>
                                                         
                 </article>
             <!-- Slide 2 end-->
@@ -317,7 +320,7 @@
         	<article class="fontTypewriter">
 				<h1 class="navTitle">Miscellanous links, blogs, Resumes &amp; Contact Form</h1>
                 			
-                <nav class="footermenu grid_10 floatLeft fontTypewriter">
+                <nav class="footermenu grid_8 floatLeft fontTypewriter">
                 	<h2 class="navTitle">Jarl's Personal Information</h2>
                     <ul id="footerbackground">
                         <li class="contactLinks grid_7 prefix_1">
@@ -335,7 +338,7 @@
                                 Levnadsbeskrivning
                             </a>
                         </li>
-                        <li class="contactLinks grid_8">
+                        <li class="contactLinks grid_7 prefix_1">
                        		<h5 class="navTitle">Jarl's other websites &amp; blogs</h5>
                         	<a href="http://movingtoorlando.tumblr.com" title="Jarl's US Photo BLog">
                         		Moving To Orlando
@@ -355,14 +358,14 @@
 				</nav>
                 
             
-				<nav id="tribute" class="footermenu clearLeft">
+				<nav id="tribute" class="footermenu floatLeft clearLeft">
                         <h6 class="tribute">A tribute goes out to the folks making the web a fun toy to play with :</h6>
                             <p class="contactLinks padding_vert_5 tribute">Nathan Smith for his <a href="http://960.gs" title="Website prototyping">960.gs</a> &amp; his new plug <a href="http://formalize.me" title="Making forms generic">Formalize</a>, Ethan Marcotte for his book on <a href="http://www.abookapart.com/products/responsive-web-design" title="Buy it, read it">Responsive Design</a> &amp; Paul Irish for his work on the <a href="http://html5boilerplate.com" title="A great source for a complete HTML5 setup">HTML5 Boilerplate</a>, not to forget his FAB IE bugfix at <a href="http://paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither">Paulirish.com</a>. I also would like to thank Dan Cederholm for his webinars &amp; his book <a href="http://www.abookapart.com/products/css3-for-web-designers">'CSS3 for Designers'</a>, <a href="http://www.alistapart.com" title="My absolute favourite">A List Apart</a> for a boastin' website, the guys at <a href="http://www.acquia.com" title="The best Drupal community in the world">Aqcuia</a> &amp; the geeks at <a href="http://drupalize.me" title="Drupalize ME">Lullabot</a> for making great Drupal tutorials.
                            </p> 
 				</nav>
                 
                     
-                    <form class="floatRight grid_6" id="contactPellenetdesign" method="post" action="js/captcha/captcha.php">
+                    <form class="floatRight" id="contactPellenetdesign" method="post" action="js/captcha/captcha.php">
                     <h1 class="navTitle">Contact Form</h1>
                     <!--<label for="title">Give us a buzz..</label>
                     <br>-->
@@ -385,23 +388,23 @@
                 <aside id="miscPosition" class="floatLeft clearLeft">
                     <h1 class="navTitle">Miscellanous Links to important Website Tools</h1>
                     <nav class="alignCenter">
-                        <ul id="miscFooterLinks">
+                        <ul>
                             <li class="miscFooterLinks floatLeft">
                                 <h3 class="navTitle">960.gs</h3>
                                 <a href="#" title="Prototyping">
-                                    <img src="images/btn/footerbuttons/960gs.png" alt="960.gs Link" onmouseover="desaturate(this);">
+                                    <img src="images/btn/footerbuttons/960gs.png" alt="960.gs Link" <!--onmouseover="desaturate(this);-->">
                                 </a>
                             </li>
                             <li class="miscFooterLinks floatLeft">
                                 <h2 class="navTitle">Drupal</h2>
                                 <a href="#" title="The best CMS out there">
-                                    <img src="images/btn/footerbuttons/drupal.png" alt="Drupal Link" onmouseover="desaturate(this);">
+                                    <img src="images/btn/footerbuttons/drupal.png" alt="Drupal Link" <!--onmouseover="desaturate(this);-->">
                                 </a>
                             </li>
                             <li class="miscFooterLinks floatLeft">
                                 <h4 class="navTitle">jQuery</h4>
                                 <a href="#" title="A JavaScript framework at it's best">
-                                    <img src="images/btn/footerbuttons/jQuery.png" alt="jQuery Link" onmouseover="desaturate(this);">
+                                    <img src="images/btn/footerbuttons/jQuery.png" alt="jQuery Link" <!--onmouseover="desaturate(this);-->">
                                 </a>
                             </li>
                         </ul>

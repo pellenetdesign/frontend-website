@@ -146,9 +146,9 @@ header#logotype{
 	margin:0 1%;
 	width:98%;}
 nav#mainMenu{
+	width: 50%;
     font-family: 'MyUnderwoodRegular', sans-serif;
-	margin-left:0.03125%;
-	margin-right:-0.1875%;}
+	margin:0 10% 0 5%;}
 ul li.mainMenu{
 	text-align:center;
 	background-color:#ffffff;
@@ -166,13 +166,14 @@ ul li.mainMenu a{
 	color:#4c616b;}
 article#welcome{
 	color:#27333a;
-	margin-left: 1.5em;}
+	width:45%;
+	margin: 0 1% 0 0;}
 article#welcome h6{
-	font-size:1.375em;
+	font-size:137.5%;
 	line-height:0.9em;} 
 article#welcome p{
 	line-height:1.3em;
-	font-size:0.8em;}
+	font-size:80%;}
 h1#hello{
 	color:#3B525F;
 	font-size:2.875em;
@@ -294,11 +295,9 @@ p.tribute{
 
 
 form#contactPellenetdesign{
-	float:right;
-	margin-top:-6em;
 	box-shadow:0px -20px 32px -20px #5A6A6F;
-	/*border-radius:25px;*/
-	padding:15px;}
+	width:35%;
+	height: 45em;}
 form#contactPellenetdesign:hover{
 	box-shadow:inset -10px 0 75px 0px #9BB6BF, 0 0 0 2px #B5D5DF, 0 0 0 4px #5A6A6F, -2px 4px 8px 8px #5A6A6F;}
 textarea{
@@ -306,32 +305,33 @@ textarea{
 	letter-spacing:0.05em;
 	background:#C3D5DF;
 	border:none;
-	border-radius:20px;
-	padding:5px 10px;
-	margin:10px 0;
+	padding:0.5em 0.2em;
+	border-radius:1.5em;
 	color:#4c616b;
-	font-size:1.1em;
+	font-size:110%;
 	line-height:1em;
-	width:90%;
+	width:100%;
 	height:150px;}
 input{
+	width:100%;
+	padding:0.5em 0.2em;
     font-family: 'MyUnderwoodRegular';
-	letter-spacing:0.05em;
+	letter-spacing:25%;
 	background:url(../images/bg/bg_lighter_lighter.png) repeat;
 	border:none;
-	border-radius:20px;
-	padding:5px 10px;
-	font-size:1.1em;
+	border-radius:1.5em;
+	font-size:110%;
 	color:#4c616b;}
 input#name{
-	width:90%}
+	width:100%;}
 input#email{
-	width:90%}
+	width:100%;}
 input#url{
-	width:90%}
+	width:100%;}
 input#submit{
-    font-family: 'MyUnderwoodRegular';
-	padding:10px;}
+text-align: center;
+	width:40%;
+    font-family: 'MyUnderwoodRegular';}
 input#submit:hover{
 	font-weight:500;
 	color:#27333a;
@@ -339,7 +339,6 @@ input#submit:hover{
 	box-shadow:  0 0 0px 4px #A8C5CF;}
 input::-webkit-input-placeholder {
     color:   #4c616b;
-    margin-left: inherit; /* probably not needed */
 }
 input:-moz-placeholder {
     color:  #4c616b;
@@ -347,7 +346,6 @@ input:-moz-placeholder {
 /* on hover */
 input:hover::-webkit-input-placeholder {
     color: #3B525F;
-    margin-left:10px;
 }
 input:hover:-moz-placeholder {
     color: #3B525F;
@@ -372,25 +370,19 @@ ul#miscFooterLinks{
 	width:390px;}
 }*/
 #miscPosition{
-	width:59%;}
+	width:57%;
+	margin-right: -10%;}
 li.miscFooterLinks{
-	width:6.25em;
-	height:6.25em;
-	margin:0 6%;
+	width:15%;
+	margin: 0 9%;
 	border-radius:0.75em;
 	overflow:hidden;
 	box-shadow: 0 0 0 1px #8EA7AF, 0 0 0 2px #404B4F, -2px 4px 4px 2px #5A6A6F, 0 16px 8px -6px #3B525F;
 	}
 li.miscFooterLinks:hover{
-	box-shadow:  0 0 0 1px #B5D5DF, 0 0 0 2px #5A6A6F, -2px 4px 4px 2px #5A6A6F, 0 6px 8px -2px #3B525F;
-	border-radius:0.75em;
-	overflow:hidden;}
-li.miscFooterLinks a img{
-	position:relative;
-	border-radius:0.75em;
-	overflow:hidden;}
-li.miscFooterLinks a img:hover{
-	position:relative;
+	width:15%;
+	margin: 0 9%;
+	box-shadow:  0 0 0 1px #B5D5DF, 0 0 0 2px #5A6A6F, -2px 4px 4px 2px #5A6A6F, 0 6px 0px -2px #3B525F;
 	border-radius:0.75em;
 	overflow:hidden;}
 #copyright{
