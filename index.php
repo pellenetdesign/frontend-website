@@ -287,35 +287,7 @@
     
     <footer class="grid_16 noMargin noPadding">
     <h1 class="navTitle">Social Networking, Miscellanous Links &amp; Contact Form</h1>
-       	<nav>
-        <h1 class="navTitle">Social networking</h1>
-            <ul id="socialmenu">
-                <li class="socialmenu">
-                    <a href="#" title="LinkedIn">
-                    <img src="images/btn/footerbuttons/linkedInOn.png" id="linkedinOn" alt="LinkedIn">
-                    <img src="images/btn/footerbuttons/linkedInOff.png" id="linkedinOff"  alt="LinkedIn">	
-                    </a>
-                </li>
-                <li class="socialmenu">
-                    <a href="#" title="Facebook">
-                    <img src="images/btn/footerbuttons/facebookOn.png" id="facebookOn" alt="Facebook">
-                    <img src="images/btn/footerbuttons/facebookOff.png" id="facebookOff" alt="Facebook">
-                    </a>
-                </li>
-                <li class="socialmenu">
-                    <a href="#" title="FlickR">
-                    <img src="images/btn/footerbuttons/flickrOn.png" id="flickrOn" alt="FlickR">
-                    <img src="images/btn/footerbuttons/flickrOff.png" id="flickrOff" alt="FlickR">
-                    </a>
-                </li>
-                <li class="socialmenu">
-                    <a href="#" title="Twitter">
-                    <img src="images/btn/footerbuttons/twitterOn.png" id="twitterOn" alt="Twitter">
-                    <img src="images/btn/footerbuttons/twitterOff.png" id="twitterOff" alt="Twitter">	
-                    </a>
-                </li>
-            </ul>
-        </nav>
+       	
         
         	<article class="fontTypewriter">
 				<h1 class="navTitle">Miscellanous links, blogs, Resumes &amp; Contact Form</h1>
