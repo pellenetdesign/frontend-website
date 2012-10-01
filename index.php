@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 <!--http://paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither-->
 
