@@ -51,6 +51,33 @@
 			)
 		//--><!]]>
 </script>
+<script type="text/JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_validateForm() { //v4.0
+  var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+  for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=MM_findObj(args[i]);
+    if (val) { nm=val.name; if ((val=val.value)!="") {
+      if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+        if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+      } else if (test!='R') { num = parseFloat(val);
+        if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+        if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+          min=test.substring(8,p); max=test.substring(p+1);
+          if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+    } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+  } if (errors) alert('The following error(s) occurred:\n'+errors);
+  document.MM_returnValue = (errors == '');
+}
+//-->
+</script>
 </head>
 <body>
 <!--960 wrap-->
@@ -79,7 +106,14 @@
                 </li>
             </ul>
         </nav>
-                
+         <aside>
+         <div id="formMessage" class="clearBoth floatLeft push_1">
+         	 <!-- if the variable "wrong_code" is sent from previous page then display the error field -->
+                        <?php if(isset($_GET['wrong_code'])){?>
+                        Wrong verification code, are you a robot?
+                        <?php ;}?>
+         </div>
+         </aside>
         <article id="welcome" class="floatRight">
             <hgroup>
                 <h1 id="hello" class="fontMainBold">My name is Jarl</h1>
@@ -337,26 +371,24 @@
                            </p> 
 				</nav>
                 
-                    
-                    
-                    <form class="floatRight" id="contactPellenetdesign" method="post" action="js/captcha/captcha.php">
-                    <h1 class="navTitle">Contact Form</h1>
-                    <!--<label for="title">Give us a buzz..</label>
-                    <br>-->
-                    <!--<label for="name">Name</label>-->
-                    <input type="text" name="name" id="name" tabindex="10" autocomplete="on" placeholder="Your name">
-                    <!--<br>
-                    <label for="email">Email</label>-->
-                    <input type="email" id="email" tabindex="20" autocomplete="on" placeholder="you@yourdomain">
-                    <!--<br>
-                    <label for="url">Website</label>-->
-                    <input type="url" name="url" id="url" tabindex="30" autocomplete="on" placeholder="http://www.yourdomain.com">
-                    <label for="message" class="fontTypewriter">Message : </label>
-                    <textarea name="message" id="message" tabindex="70" cols="45" rows="5"></textarea>
+                    <form class="floatRight" name="form1" id="contactPellenetdesign" method="post" action="Form/mailer.php" onsubmit="MM_validateForm('from','','RisEmail','subject','','R','verif_box','','R','message','','R');return document.MM_returnValue">
+                        <h1 class="navTitle">Contact Form</h1>
+                      
+                        <input type="text" name="name" id="name" tabindex="10" autocomplete="on" placeholder="Your name" value="<?php echo $_GET['name'];?>">
                    
-                    <input type="submit" name="submit" id="submit" tabindex="80" value="Hit it!">
-                    <p class="ajax-fc-container"></p>
-                    </form>
+                        <input type="email" name="from" id="from email" tabindex="20" autocomplete="on" placeholder="you@yourdomain" value="<?php echo $_GET['from'];?>">
+                       
+                        <input type="text" name="subject" id="subject" tabindex="30" autocomplete="off" placeholder="Subject" value="<?php echo $_GET['subject'];?>">
+                      
+                        <input type="text" name="verif_box" id="verif_box" tabindex="40" autocomplete="off" placeholder="Type verification image">
+                        <img src="Form/verificationimage.php?<?php echo rand(0,9999);?>" alt="verification image, type it in the box" />
+                        
+                        <textarea name="message" tabindex="70" rows="5" id="message" autocomplete="off" placeholder="Your message"><?php echo $_GET['message'];?></textarea>
+                       
+                        <input type="submit" name="Submit" id="submit" value="Hit it!"/>
+					</form>
+                    
+
                     
                     
                 <aside id="miscPosition" class="floatLeft clearLeft">
@@ -395,6 +427,7 @@
 </aside>
 
 
+
 <script src="js/jquery-1.7.2.min.js"></script>
 <script src="js/jquery-ui-1.8.20.custom.min.js"></script>
 <script src="js/captcha/jquery.captcha.js"></script>
@@ -405,10 +438,6 @@
 <script src="js/pixastic.custom.js"></script>
 <script src="js/jquery.scrollTo-1.4.2-min.js"></script>
 <script src="js/animationPixastic.js"></script>
-</body>
-</html>
-
-
 </body>
 </html>
 

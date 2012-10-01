@@ -265,7 +265,14 @@ p.tribute{
 .contactLinks{
 	float:left;}
 /*------------------Contact Form--------------------*/
-
+div#formMessage{
+	margin-top:8em;
+	font-size:100%;
+	color:#FFF;
+	font-weight:900;
+	cursor:pointer;}
+#fb-form-header{
+	background-color:#000;}
 
 form#contactPellenetdesign{
 	box-shadow:0px -20px 32px -20px #5A6A6F;

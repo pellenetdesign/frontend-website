@@ -81,17 +81,18 @@ $('li.mainMenu:nth-child(2)').click(function(){
 	//alert('It works!');
 	$.scrollTo( 'form#contactPellenetdesign', 2500, 'easeOutCirc');
         // highlight the DIV using jQuery UI effect
-       // $('#contactPellenetdesign').effect('highlight', {}, 3000);
+       $('#contactPellenetdesign').effect('drop', {}, 3000);
 	});
-
-
-
-//-----------------Captcha---------------------//
-
-	$(function() {
-			$(".ajax-fc-container").captcha({
-			});
+	$('#formMessage').click(function(){
+		//alert('It works!');
+		$.scrollTo( 'form#contactPellenetdesign', 2500, 'easeOutCirc');
+	        // highlight the DIV using jQuery UI effect
+	       $('#contactPellenetdesign').effect('drop', {}, 3000);
 		});
+
+
+
+
 
 //document ready		
 });
