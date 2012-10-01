@@ -155,7 +155,7 @@ ul li.mainMenu{
 	float:left;
 	width:6.25em;
 	height:6.25em;
-	margin-left: 1.875em;
+	margin-left: 5%;
 	margin-top:-3.4375em;
 	overflow:hidden;
 	border-radius:6.25em;}
@@ -169,8 +169,8 @@ article#welcome{
 	width:45%;
 	margin: 0 1% 0 0;}
 article#welcome h6{
-	font-size:137.5%;
-	line-height:0.9em;} 
+	font-size:120%;
+	line-height:2em;} 
 article#welcome p{
 	line-height:1.3em;
 	font-size:80%;}
@@ -182,12 +182,12 @@ h1#hello{
 	letter-spacing:0.05em;
 	text-shadow: 0.03em 0.03em 0 #27333a, -0.03em -0.03em 0 #B5D3DF;}
 nav#secondMenuPosition{
-	margin:-5.25em 0 0 4em;}
+	}
 li.secondMenu{
 	text-shadow: 0.03em 0.03em 0 #27333a, -0.03em -0.03em 0 #B5D3DF;
+	margin:0 0 0 10%;
 	}
-li.secondMenu a{
-	margin-right: 0.25em;
+li.secondMenu a{;
 }
 /*HTML5 title must-have, invisible*/
 .navTitle{
@@ -200,56 +200,27 @@ li.secondMenu a{
 #mainContent{
 	width:100%;
 	margin-bottom: 2em;}
-article.welcomeText{
-	padding:0px 5px 15px 15px;
-	margin:0;}
 /*-------------Footer-----------------------*/
 
-footer{
-	height:100%;
-	background: transparent;
-}
+
 #footerbackground{
 	background:url(../images/bg/logo_960_3.png) no-repeat;
 	background-size:100%;}
 ul#socialmenu{
 	width:100%;
-	height:132px;
+	height:8.25em;
 	margin-top:2em;
 	margin-bottom:4em;
 	box-shadow: 0 1px 2px -2px #C2E4EF, 0px 20px 32px -30px #5A6A6F;
 	} 
-li.socialmenu{
-	float:left;	}
-li.socialmenu a img#linkedinOff{
-	margin-top:-145px;}
-li.socialmenu a img#facebookOff{
-	margin-top:-145px;}
-li.socialmenu a img#flickrOff{
-	margin-top:-145px;}
-li.socialmenu a img#twitterOff{
-	margin-top:-150px;}
-li.socialmenu a img#linkedinOn{}
-li.socialmenu a img#facebookOn{}
-li.socialmenu a img#flickrOn{}
-li.socialmenu a img#twitterOn{}
-li.socialmenu{
-	width:25%;
-	margin:0;
-	padding:0;}
-li.socialmenu a{}
-li.socialmenu a img{
-	width:100%;
-	background-size:100%;}
 .footermenu{
 	font-size:1em;
 	z-index:10;
-	float:left;
 	}
 /* hack Chrome / Safari */
 
 .footermenu p{
-	padding-bottom:30px;}
+	padding-bottom:1.875em;}
 li.contactLinks a:hover{
 	font-weight:700;
 	}
@@ -273,6 +244,7 @@ nav#tribute{
 	border-radius:3em;
 	background:url(../images/bg/bg_lighter.png) repeat;}
 h6.tribute{
+	font-size:100%;
 	color:#4c616b;
 	overflow:hidden;
 	line-height:120%;}
@@ -317,8 +289,6 @@ textarea{
 	min-width: 100%;
 	min-height:5em;
 	max-height:14em;}
-textarea:hover{
-	min-height:14em;}
 input{
 	width:100%;
 	padding:0.5em 0.2em;
@@ -336,7 +306,8 @@ input#email{
 input#url{
 	width:100%;}
 input#submit{
-text-align: center;
+	text-align:center;
+	margin:2em 30%;
 	width:40%;
     font-family: 'MyUnderwoodRegular';}
 input#submit:hover{

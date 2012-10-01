@@ -103,7 +103,7 @@
         
         
         
-            <nav class="push_1" id="secondMenuPosition">
+            <nav>
         <h1 class="navTitle">Slider Navigation</h1>
                 <ul class="thumbs">
                     <li class="secondMenu">
@@ -338,6 +338,7 @@
 				</nav>
                 
                     
+                    
                     <form class="floatRight" id="contactPellenetdesign" method="post" action="js/captcha/captcha.php">
                     <h1 class="navTitle">Contact Form</h1>
                     <!--<label for="title">Give us a buzz..</label>
@@ -404,6 +405,10 @@
 <script src="js/pixastic.custom.js"></script>
 <script src="js/jquery.scrollTo-1.4.2-min.js"></script>
 <script src="js/animationPixastic.js"></script>
+</body>
+</html>
+
+
 </body>
 </html>
 
