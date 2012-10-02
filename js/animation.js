@@ -75,19 +75,32 @@ $('li.mainMenu').hover(function(){
 					});
 			
 		});
+//---------Second Menu Buttons hover--------------//
+
+$('li.secondMenu a').hover(function(){
+	$(this).stop().animate({
+		marginTop:'5px',
+		marginBottom:'-5px'
+		});
+	},function(){
+			$(this).stop().animate({
+		marginTop:'-5px',
+		marginBottom:'5px'
+			});
+		});
 
 //onClick:Scrollto
 $('li.mainMenu:nth-child(2)').click(function(){
 	//alert('It works!');
 	$.scrollTo( 'form#contactPellenetdesign', 2500, 'easeOutCirc');
         // highlight the DIV using jQuery UI effect
-       $('#contactPellenetdesign').effect('drop', {}, 3000);
+       $('#contactPellenetdesign').effect('highlight', {}, 3000);
 	});
 	$('#formMessage').click(function(){
 		//alert('It works!');
 		$.scrollTo( 'form#contactPellenetdesign', 2500, 'easeOutCirc');
 	        // highlight the DIV using jQuery UI effect
-	       $('#contactPellenetdesign').effect('drop', {}, 3000);
+	       $('#contactPellenetdesign').effect('highlight', {}, 3000);
 		});
 
 

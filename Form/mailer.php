@@ -19,7 +19,7 @@ $name = stripslashes($name);
 // check to see if verificaton code was correct
 if(md5($verif_box).'a4xn' == $_COOKIE['tntcon']){
 	// if verification code was correct send the message and show this page
-	mail("pellehelin@gmail.com", 'Online Form: '.$subject, $_SERVER['REMOTE_ADDR']."\n\n".$message, "from: $name", "Email: $from");
+	mail("pellehelin@gmail.com", 'Online Form: '.$subject, $_SERVER['REMOTE_ADDR']."\n\n".$message, "from: $name", "email: $from");
 	// delete the cookie so it cannot sent again by refreshing this page
 	setcookie('tntcon','');
 } else if(isset($message) and $message!=""){

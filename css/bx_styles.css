@@ -6,12 +6,12 @@
 	float:left;
 	width:2em;
 	height:2em;
-	margin-right:0.5%;
-	line-height:1.50em;
+	margin:0 2% -0.4em 2%;
+	line-height:1.5em;
 	overflow:hidden;
 	border-radius:5em;
 	box-shadow: 0 -0.3em 0.4375em -0.2em #555, inset 0 0.1875em 0.275em -0.225em #fff;
-	font-size:2.8125em;}
+	font-size:5em;}
 /*Fixed width to change with @media*/
 
 ul#slider1{

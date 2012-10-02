@@ -20,9 +20,8 @@
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/960fluid.css">
 <link rel="stylesheet" href="css/text.css">
-<link rel="stylesheet" href="js/captcha/captcha.css">
-<link rel="stylesheet" href="css/bx_styles.css">
-<link rel="stylesheet" href="css/default.css" media="screen and (min-width:911px)" />
+<link rel="stylesheet" href="css/default.css">
+<meta name="viewport" content="initial-scale=1.0", width-device-width />
 <!--PRELOAD-->
 <script>
 		<!--//--><![CDATA[//><!--
@@ -114,16 +113,17 @@ function MM_validateForm() { //v4.0
                         <?php ;}?>
          </div>
          </aside>
-        <article id="welcome" class="floatRight">
+        <article id="welcome">
             <hgroup>
                 <h1 id="hello" class="fontMainBold">My name is Jarl</h1>
-                <h6 class="fontHandwrittenBold margin_vert_5">I'm a webdesigner, photographer, musician &amp; I'm absolutely bonkers about CSS, HTML5, jQuery and all things Apple.
+                <h6 id="firstpresentation" class="fontHandwrittenBold">
+                I'm a webdesigner, photographer, musician &amp; I'm absolutely bonkers about CSS, HTML5, jQuery and all things Apple
                 </h6>
             
                 
 			</hgroup>
-			<p class="fontMainRegular">
-                For the years in the past, the tedious work of forcing websites to appear correctly in all browsers, all resolutions &amp; all mobile devices has been a mind-boggling time-spender.  We are entering a new era, where the work of 'Numerous JavaScript-traps &amp; Anti-Semantic IE-bugfixes' is over. We are able create online applications comfortable in ALL medias, with ease. This is more a philosophy than pure development, it's called 'Responsive Design'.
+			<p class="fontMainRegular" id="secondpresentation">
+                ..for years in the past, the tedious work of forcing websites to appear identically in all browsers, all resolutions &amp; all mobile devices has been a mind-boggling time-spender.  We are entering a new era, where 'Numerous JavaScript-traps &amp; Anti-Semantic IE-bugfixes' are over. We are able create online applications comfortable in ALL medias, with ease. This is more a philosophy than pure development, it's called 'Responsive Design'..
                 </p>	
 		</article>
 	</header>
@@ -446,6 +446,11 @@ function MM_validateForm() { //v4.0
 <script src="js/pixastic.custom.js"></script>
 <script src="js/jquery.scrollTo-1.4.2-min.js"></script>
 <script src="js/animationPixastic.js"></script>
+</body>
+</html>
+
+
+nimationPixastic.js"></script>
 </body>
 </html>
 
