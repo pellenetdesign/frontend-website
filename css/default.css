@@ -271,14 +271,25 @@ div#formMessage{
 	color:#FFF;
 	font-weight:900;
 	cursor:pointer;}
-#fb-form-header{
-	background-color:#000;}
-
+#giveusabuzz{
+	text-shadow: 0.03em 0.03em 0 #27333a, -0.03em -0.03em 0 #B5D3DF, -1em 0.5em 0.1em #B5D3DF;
+	font-weight:700;
+	transform:rotate(340deg);
+	-ms-transform:rotate(340deg); /* IE 9 */
+	-moz-transform:rotate(340deg); /* Firefox */
+	-webkit-transform:rotate(14deg); /* Safari and Chrome */
+	-o-transform:rotate(340deg); /* Opera */}
+#arrow{
+	transform:rotate(14deg);
+	-ms-transform:rotate(14deg); /* IE 9 */
+	-moz-transform:rotate(14deg); /* Firefox */
+	-webkit-transform:rotate(14deg); /* Safari and Chrome */
+	-o-transform:rotate(14deg); /* Opera */}
 form#contactPellenetdesign{
 	box-shadow:0px -20px 32px -20px #5A6A6F;
 	width:35%;
-	padding: 0 2% 0 1.5%;
-	height: 46em;}
+	padding: 1em 2% 0 1.5%;
+	}
 form#contactPellenetdesign:hover{
 	box-shadow:inset -10px 0 75px 0px #9BB6BF, 0 0 0 2px #B5D5DF, 0 0 0 4px #5A6A6F, -2px 4px 8px 8px #5A6A6F;}
 textarea{
@@ -310,11 +321,9 @@ input#name{
 	width:100%;}
 input#email{
 	width:100%;}
-input#url{
-	width:100%;}
 input#submit{
 	text-align:center;
-	margin:2em 30%;
+	margin:1em 30%;
 	width:40%;
     font-family: 'MyUnderwoodRegular';}
 input#submit:hover{

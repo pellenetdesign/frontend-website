@@ -21,8 +21,8 @@
 <link rel="stylesheet" href="css/960fluid.css">
 <link rel="stylesheet" href="css/text.css">
 <link rel="stylesheet" href="js/captcha/captcha.css">
-<link rel="stylesheet" href="css/default.css">
 <link rel="stylesheet" href="css/bx_styles.css">
+<link rel="stylesheet" href="css/default.css" media="screen and (min-width:911px)" />
 <!--PRELOAD-->
 <script>
 		<!--//--><![CDATA[//><!--
@@ -110,7 +110,7 @@ function MM_validateForm() { //v4.0
          <div id="formMessage" class="clearBoth floatLeft push_1">
          	 <!-- if the variable "wrong_code" is sent from previous page then display the error field -->
                         <?php if(isset($_GET['wrong_code'])){?>
-                        Wrong verification code, are you a robot?
+                        Wrong verification code, are you a robot&#63;
                         <?php ;}?>
          </div>
          </aside>
@@ -330,7 +330,7 @@ function MM_validateForm() { //v4.0
                 <nav class="footermenu grid_8 floatLeft fontTypewriter">
                 	<h2 class="navTitle">Jarl's Personal Information</h2>
                     <ul id="footerbackground">
-                        <li class="contactLinks grid_7 prefix_1">
+                        <li class="contactLinks grid_7">
                        		<h4 class="navTitle">Jarl's Resume in English, French &amp; Swedish</h4>
                             <a href="#" title="Title">
                                 Arty Resume
@@ -345,7 +345,7 @@ function MM_validateForm() { //v4.0
                                 Levnadsbeskrivning
                             </a>
                         </li>
-                        <li class="contactLinks grid_7 prefix_1">
+                        <li class="contactLinks grid_7">
                        		<h5 class="navTitle">Jarl's other websites &amp; blogs</h5>
                         	<a href="http://movingtoorlando.tumblr.com" title="Jarl's US Photo BLog">
                         		Moving To Orlando
@@ -363,6 +363,14 @@ function MM_validateForm() { //v4.0
                         
                     </ul>
 				</nav>
+                <aside class="grid_8 floatLeft alignCenter fontSize_300">
+                		<div id="giveusabuzz">
+                    	Give us a Buzz
+                    	</div>
+                    	<div class="fontSize_140" id="arrow">
+                        &darr;
+                        </div>
+                </aside>
                 
             
 				<nav id="tribute" class="footermenu floatLeft clearLeft">
@@ -385,7 +393,7 @@ function MM_validateForm() { //v4.0
                         
                         <textarea name="message" tabindex="70" rows="5" id="message" autocomplete="off" placeholder="Your message"><?php echo $_GET['message'];?></textarea>
                        
-                        <input type="submit" name="Submit" id="submit" value="Hit it!"/>
+                        <input type="submit" name="Submit" id="submit" value="Hit it&#33;"/>
 					</form>
                     
 
