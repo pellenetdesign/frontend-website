@@ -34,18 +34,18 @@ $(document).ready( function() {
 
 
 //--------------footerButtons-------------//
-$('ul#socialmenu li a').hover(function(){
+/*$('ul#socialmenu li a').hover(function(){
 	$(this).children('img:last').stop().animate({
 		opacity:'0'},600);
 	},function(){
 		$(this).children('img:last').stop().animate({
 		opacity:'1'},600,'easeOutCirc');
-		});
+		});*/
 //------------end footer Buttons---------//
 
 
 //--------------Main menu btns-------------//
-$('li.mainMenu').hover(function(){
+/*$('li.mainMenu').hover(function(){
 	//alert('It works!');
 	$(this).stop().animate({
 		width:'7.5em',
@@ -74,10 +74,10 @@ $('li.mainMenu').hover(function(){
 						});
 					});
 			
-		});
+		});*/
 //---------Second Menu Buttons hover--------------//
 
-$('li.secondMenu a').hover(function(){
+/*$('li.secondMenu a').hover(function(){
 	$(this).stop().animate({
 		marginTop:'5px',
 		marginBottom:'-5px'
@@ -87,7 +87,7 @@ $('li.secondMenu a').hover(function(){
 		marginTop:'-5px',
 		marginBottom:'5px'
 			});
-		});
+		});*/
 
 //onClick:Scrollto
 $('li.mainMenu:nth-child(2)').click(function(){
@@ -103,6 +103,35 @@ $('li.mainMenu:nth-child(2)').click(function(){
 	       $('#contactPellenetdesign').effect('highlight', {}, 3000);
 		});
 
+//Read More/Read Less actions
+
+//entry states
+$('#onetorule .readless').fadeOut(0);
+$('#onetorule p:nth-child(3)').fadeOut(0);
+$('#onetorule h6').fadeOut(0);
+$('#onetorule .readmore').click(function(){
+	//alert('It works!');
+	$(this).fadeOut(0);
+	$(this).parents().children().find('#onetorule .readless').fadeIn(800);
+	
+	$(this).parents().children().find('#onetorule p:nth-child(2)').fadeOut(0);
+	
+	$(this).parents().children().find('#onetorule p:nth-child(3)').fadeIn(800);
+	$(this).parents().children().find('#onetorule h6').fadeIn(800);
+	});
+$('#onetorule .readless').click(function(){
+	//alert('It works!');
+	$(this).fadeOut(0);
+	$(this).parents().children().find('#onetorule .readmore').fadeIn(800);
+	
+	$(this).parents().children().find('#onetorule p:nth-child(2)').fadeIn(800);
+		
+	$(this).parents().children().find('#onetorule p:nth-child(3)').fadeOut(0);
+	$(this).parents().children().find('#onetorule h6').fadeOut(0);
+
+		
+	
+	});
 
 
 

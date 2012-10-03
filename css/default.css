@@ -185,9 +185,9 @@ article#welcome h6{
 article#welcome p{
 	float:left;
 	width:40%;
-	margin:2em 0 -2em 5%;
-	line-height:1.1em;
-	font-size:80%;}
+	margin:2em 0 -4em 5%;
+	line-height:1.3em;
+	font-size:100%;}
 h1#hello{
 	color:#3B525F;
 	font-size:2.875em;
@@ -231,6 +231,8 @@ ul#socialmenu{
 li.contactLinks a:hover{
 	font-weight:700;
 	}
+p.contactLinks{
+	}
 p.contactLinks a:hover{
 	color:#C3D5DF;}
 li.contactLinks address{
@@ -246,17 +248,18 @@ li.contactLinks address a:hover{
 	color:#27333a;}
 nav#tribute{
 	padding:1.5em;
-	width:35%;
-	margin:2em 8%;
+	width:50%;
+	margin:0 3% 2em 2%;
 	border-radius:3em;
 	background:url(../images/bg/bg_lighter.png) repeat;}
 h6.tribute{
-	font-size:100%;
+	font-size:120%;
 	color:#4c616b;
 	overflow:hidden;
 	line-height:120%;}
 p.tribute{
-	font-size:75%;
+	font-size:100%;
+	padding:1em 0;
 	text-align:justify;
 	line-height:130%}
 
@@ -284,7 +287,7 @@ div#formMessage{
 	transform:rotate(340deg);
 	-ms-transform:rotate(340deg); /* IE 9 */
 	-moz-transform:rotate(340deg); /* Firefox */
-	-webkit-transform:rotate(14deg); /* Safari and Chrome */
+	-webkit-transform:rotate(340deg); /* Safari and Chrome */
 	-o-transform:rotate(340deg); /* Opera */}
 #arrow{
 	transform:rotate(14deg);
@@ -394,20 +397,21 @@ li.miscFooterLinks:hover{
 /*---------------------
 Bx-styles
 ---------------------*/
-@charset "UTF-8";
-/* CSS Document */
+ul.thumbs{
+	width:60%;}
 .thumbs a{
 	text-shadow: 0.03em 0.03em 0 #27333a, -0.03em -0.03em 0 #B5D3DF;
 	text-align:center;
 	background:url(../images/bg/bg.png) repeat;
 	float:left;
-	width:16%;
+	width:2em;
 	height:1.5em;
-	margin:0 0 0 2%;
+	margin:0 0 0 5%;
 	line-height:1.5em;
 	overflow:hidden;
 	border-radius:0.5em;
-	box-shadow: 0 -0.3em 0.4375em -0.2em #555, inset 0 0.1875em 0.275em -0.225em #fff;
+	box-shadow: inset 0 0.1875em 0.275em -0.225em #fff;
+	
 	font-size:4em;}
 /*Fixed width to change with @media*/
 
@@ -453,7 +457,8 @@ p.speekCloud_first{
 	line-height: 100%;
 	box-shadow: -4px 5px 4px 1px #718c9b;
 	z-index:11;
-	opacity:0.75;}
+	opacity:0.75;
+	z-index:6;}
 div.speekCloud_last{
 	padding:10%;
 	background:#e9f8fe;
@@ -464,12 +469,43 @@ div.speekCloud_last{
 	box-shadow: -4px 5px 4px 0px #718c9b;
 	opacity:0.9;
 	z-index: 9;}
-#onetorule{
+
+#onetorule h5{
+	font-size:180%;
+	line-height:2.5em;
 	}
-#onetorule p{
-	font-size:0.85em;}
-#onetorule p.fontHandwrittenBold{
-	font-size:1.5625em;}
+#onetorule p:nth-child(2){
+	font-size:120%;
+	}
+#onetorule p:nth-child(3){
+	font-size:120%;}
+#onetorule h6{
+	font-size:180%;
+	width:150%;
+	line-height:2.5em;
+	margin-left:-4.5em;
+    font-family: 'AmaticSCBold', sans-serif;
+	}
+	
+div#onetorule div.readmore{
+	color:#C3523E;
+	padding:0.5 0;
+	cursor:pointer;
+	float:right;
+	font-size:100%;
+    font-family: 'MyUnderwoodRegular', sans-serif;
+	}
+div#onetorule div.readless{
+	color:#C3523E;
+	padding:0.5 0;
+	cursor:pointer;
+	float:right;
+	font-size:100%;
+    font-family: 'MyUnderwoodRegular', sans-serif;
+	}
+
+
+	
 /*-------Slider 2------*/
 img.pellePosePose{
 	z-index:11;}
@@ -821,8 +857,22 @@ li.miscFooterLinks:hover{
 Bx-styles
 ---------------------*/
 @charset "UTF-8";
+ul.thumbs li a{
+	text-align:center;
+	background:url(../images/bg/bg.png) repeat;
+	float:left;
+	width:2em;
+	height:2em;
+	margin:0 2% -0.4em 2%;
+	line-height:1.5em;
+	overflow:hidden;
+	border-radius:5em;
+	-moz-border-radius: 5em;
+	-webkit-border-radius: 5em;
+	box-shadow: 0 -0.3em 0.4375em -0.2em #555, inset 0 0.1875em 0.275em -0.225em #fff;
+	font-size:5em;}
 /* CSS Document */
-.thumbs a{
+/*.thumbs a{
 	text-align:center;
 	background:url(../images/bg/bg.png) repeat;
 	float:left;
@@ -833,7 +883,7 @@ Bx-styles
 	overflow:hidden;
 	border-radius:5em;
 	box-shadow: 0 -0.3em 0.4375em -0.2em #555, inset 0 0.1875em 0.275em -0.225em #fff;
-	font-size:3em;}
+	font-size:3em;}*/
 /*Fixed width to change with @media*/
 
 ul#slider1{
