@@ -105,7 +105,7 @@ Body : #99C9DF
 and (min-width : 768px) 
 and (max-width : 1024px) {
 html, body{
-background: #ffffff;
+	background: #ffffff;
 	color:#27333a;
     font-family: 'DroidSansRegular','DroidSansBold', sans-serif;
 	/*text-shadow: -1px -1px 0px #D7E7EE;*/}
@@ -116,8 +116,8 @@ div#background{
 	border-radius:0.625em;
 	margin-top:1.875em;
 	box-shadow: 0 0 0 1px #8EA7AF, 0 0 0 2px #404B4F, 0px 4px 4px -4px #5A6A6F;}
-#slider1 ::-moz-selection {background:#D1E6EF;}
-#slider1 ::-webkit-selection { background:#D1E6EF;}
+.slide ::-moz-selection {background:#D1E6EF;}
+.slide ::-webkit-selection { background:#D1E6EF;}
 
 header ::selection { background:#99C9DF;}
 header ::-moz-selection {background:#99C9DF;}
@@ -198,7 +198,7 @@ a img#apple{
 article#welcome p{
 	float:left;
 	width:40%;
-	margin:2em 0 -4em 5%;
+	margin:2em 0 0 5%;
 	line-height:1.3em;
 	font-size:100%;}
 h1#hello{
@@ -415,8 +415,8 @@ nav#gotaquestionclickandask{
 ul#whois{
 	background:#fff;
 	float:left;
-	margin:-2em 0 -5em 4em;
-	padding:2em 2em 0 0;;
+	margin:-1em 0 2em 4em;
+	padding:2em 2em 0 0;
 	width:8em;
 	height:8em;
 	overflow:hidden;
@@ -463,7 +463,7 @@ li.whois{
 /*---------------------
 Bx-styles
 ---------------------*/
-
+/*
 ul.thumbs{
 	width:60%;}
 .thumbs a{
@@ -479,9 +479,9 @@ ul.thumbs{
 	border-radius:0.5em;
 	box-shadow: inset 0 0.1875em 0.275em -0.225em #fff;
 	
-	font-size:4em;}
+	font-size:4em;}*/
 /*Fixed width to change with @media*/
-
+/*
 ul#slider1{
 	width:100%;
 	clear:both;
@@ -503,7 +503,7 @@ ul#slider1 li{
 .pager-active{
 	font-weight:900;
 	line-height:3.75em;
-	color:#A3B5BE;}
+	color:#A3B5BE;}*/
 
 /*-------Slider 1------*/
 p.speekCloud_first{
@@ -540,6 +540,7 @@ div.speekCloud_last{
 #onetorule h5{
 	font-size:180%;
 	line-height:2.5em;
+	letter-spacing:-1px;
 	}
 #onetorule p:nth-child(2){
 	font-size:120%;
@@ -562,6 +563,9 @@ div#onetorule div.readmore{
 	font-size:100%;
     font-family: 'MyUnderwoodRegular', sans-serif;
 	}
+div#onetorule div.readmore:hover{
+	color:#5F271D;
+}
 div#onetorule div.readless{
 	color:#C3523E;
 	padding:0.5 0;
@@ -570,11 +574,10 @@ div#onetorule div.readless{
 	font-size:100%;
     font-family: 'MyUnderwoodRegular', sans-serif;
 	}
-
-
-	
+div#onetorule div.readless:hover{
+	color:#5F271D;
 /*-------Slider 2------*/
-img.pellePosePose{
+/*img.pellePosePose{
 	z-index:11;}
 table#cv{
 	font-size: 100%;
@@ -610,10 +613,10 @@ table#cv tbody p.titleResume{
 table#cv tbody p.yearResume{
 	float: right;
 	font-style: italic;
-}
+}*/
 
 /*-------slider 3-------*/
-li#sliderpage3{
+/*li#sliderpage3{
 	text-align:center;}
 img.pellePosePosePose{
 	width:248px;
@@ -625,7 +628,7 @@ img.StockngoBefore{
 	width:200px;
 	height:200px;}
 article h3{
-	line-height:75px;}
+	line-height:75px;}*/
 	
 /*END SMALLER SCREENS*/
 }
@@ -720,8 +723,6 @@ h1#hello{
 	line-height:2em;
 	letter-spacing:0.05em;
 	text-shadow: 0.03em 0.03em 0 #27333a, -0.03em -0.03em 0 #B5D3DF;}
-nav#secondMenuPosition{
-	}
 li.secondMenu{
 	text-shadow: 0.03em 0.03em 0 #27333a, -0.03em -0.03em 0 #B5D3DF;
 	}

@@ -125,7 +125,7 @@ function MM_validateForm() { //v4.0
             <hgroup>
                 <h1 id="hello" class="fontMainBold">My name is Jarl</h1>
                 <h6 class="fontHandwrittenBold">
-                I'm a webdesigner, photographer, musician &amp; I'm absolutely bonkers about CSS, HTML5, jQuery and all things <a href="http://www.apple.com" title="Apple Macintosh" target="_blank"><img id="apple" src="images/btn/apple512.jpg" alt="Apple"></a>
+                I'm a webdesigner, photographer, musician &amp; I'm absolutely bonkers about CSS, HTML5, jQuery and all things <a href="http://www.apple.com" title="Apple Macintosh" target="_blank"><img id="apple" src="images/btn/apple512.png" alt="Apple"></a>
                 </h6>
             
                 
@@ -146,10 +146,10 @@ function MM_validateForm() { //v4.0
         	<h1 class="navTitle">Ask Jarl Pelle Helin</h1>
             <ul id="whois">
             	<li class="whois gradient">
-                	<a href="#" title="Ask Jarl"><img src="images/btn/handRed.jpg" alt="Pelle Button off"></a>
+                	<a href="#" title="Ask Jarl"><img src="images/btn/handRed.png" alt="Pelle Button off"></a>
                 </li>
                 <li class="whois">
-                	<a href="#" title="Ask Jarl"><img src="images/btn/handGreen.jpg" alt="Pelle Button on"></a>
+                	<a href="#" title="Ask Jarl"><img src="images/btn/handGreen.png" alt="Pelle Button on"></a>
                 </li>
             </ul>
             <h3 id="gotaquestion">Got a question&#63;</h3>
@@ -158,7 +158,7 @@ function MM_validateForm() { //v4.0
         
         
         
-		<nav class="hidden">
+		<!--<nav class="hidden">
         	<h1 class="navTitle">Slider Navigation</h1>
                 <ul class="thumbs">
                     <li class="secondMenu">
@@ -177,7 +177,7 @@ function MM_validateForm() { //v4.0
                         </a>
                     </li>
                 </ul>
-		</nav>          
+		</nav>          -->
             <article class="slide grid_16">
                     	<h1 class="navTitle">What makes Jarl tick</h1>
 						<aside class="grid_6 floatLeft">
@@ -468,19 +468,19 @@ function MM_validateForm() { //v4.0
                             <li class="miscFooterLinks floatLeft">
                                 <h3 class="navTitle">960.gs</h3>
                                 <a href="#" title="Prototyping">
-                                    <img src="images/btn/footerbuttons/960gs.png" alt="960.gs Link" <!--onmouseover="desaturate(this);-->">
+                                    <img src="images/btn/footerbuttons/960gs.png" alt="960.gs Link">
                                 </a>
                             </li>
                             <li class="miscFooterLinks floatLeft">
                                 <h2 class="navTitle">Drupal</h2>
                                 <a href="#" title="The best CMS out there">
-                                    <img src="images/btn/footerbuttons/drupal.png" alt="Drupal Link" <!--onmouseover="desaturate(this);-->">
+                                    <img src="images/btn/footerbuttons/drupal.png" alt="Drupal Link">
                                 </a>
                             </li>
                             <li class="miscFooterLinks floatLeft">
                                 <h4 class="navTitle">jQuery</h4>
                                 <a href="#" title="A JavaScript framework at it's best">
-                                    <img src="images/btn/footerbuttons/jQuery.png" alt="jQuery Link" <!--onmouseover="desaturate(this);-->">
+                                    <img src="images/btn/footerbuttons/jQuery.png" alt="jQuery Link">
                                 </a>
                             </li>
                         </ul>
