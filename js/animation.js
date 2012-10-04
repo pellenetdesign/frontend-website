@@ -9,25 +9,25 @@ $(document).ready( function() {
 //---------bx Slider parameters-------------//
 
   // assign the slider to a variable
-  var slider = $('#slider1').bxSlider({
-    controls: false
-  });
+ // var slider = $('#slider1').bxSlider({
+   // controls: false
+  //});
 
   // assign a click event to the external thumbnails
-  $('.thumbs a').click(function(){
-   var thumbIndex = $('.thumbs a').index(this);
+  //$('.thumbs a').click(function(){
+   //var thumbIndex = $('.thumbs a').index(this);
     // call the "goToSlide" public function
-    slider.goToSlide(thumbIndex);
+    //slider.goToSlide(thumbIndex);
   
     // remove all active classes
-    $('.thumbs a').removeClass('pager-active');	
+    //$('.thumbs a').removeClass('pager-active');	
     // assign "pager-active" to clicked thumb
-    $(this).addClass('pager-active');
+   // $(this).addClass('pager-active');
     // very important! you must kill the links default behavior
-    return false;
-  });
+    //return false;
+  //});
   // assign "pager-active" class to the first thumb
-  $('.thumbs a:first').addClass('pager-active');
+  //$('.thumbs a:first').addClass('pager-active');
   // assign "pager-passive" class to the second and last thumb
   
 //---------end bx slider-------------//
@@ -88,15 +88,70 @@ $(document).ready( function() {
 		marginBottom:'5px'
 			});
 		});*/
+		
+		//entry position
+$('footer').fadeOut(0);
+$('.slide').css('visibility','hidden');
+$('nav#gotaquestionclickandask img').fadeOut(0);
+$('ul li.whois:last').fadeOut(0);
+$('ul#whois').animate({
+	width:'0em',
+	height:'0em'
+	},0,function(){
+		$(this).animate({
+	marginLeft:'+=12em',
+	width:'3em',
+	height:'3em'
+			},800, function(){
+				$(this).animate({
+					marginLeft:'-=12em',
+					width:'8em',
+					height:'8em'
+					},1200,function(){
+						$(this).parents().children().find('nav#gotaquestionclickandask img').fadeIn(800, function(){
+							$(this).parents().children().find('.slide').css('visibility','visible');
+							$(this).parents().children().find('.slide').fadeOut(40, function(){
+								$(this).fadeIn(40, function(){
+									$(this).fadeOut(40, function(){
+										$(this).fadeIn(400,'easeInElastic');
+										});
+									});
+								})
+							$(this).parents().children().find('footer').delay(1000).fadeIn(1500,'easeInOutCirc');
+							});
+						})
+				})
+		});
+$('#gotaquestion').fadeOut(0);
+$('#clickandask').fadeOut(0);
+$('ul#whois').hover(function(){
+		$(this).parents().children().find('ul li.whois:last').stop().fadeIn(400);
+		$(this).parents().children().find('ul li.whois:first').stop().fadeOut(0);
+		$(this).parents().children().find('#gotaquestion').stop().delay(500).fadeIn(400);
+		$(this).parents().children().find('#clickandask').stop().delay(1500).fadeIn(400);
+	},function(){
+			$(this).parents().children().find('ul li.whois:last').stop().fadeOut(0);
+			$(this).parents().children().find('ul li.whois:first').stop().fadeIn(400);
+			$(this).parents().children().find('#gotaquestion').stop().fadeOut(400);
+			$(this).parents().children().find('#clickandask').stop().delay(1500).fadeOut(400);
+		});
 
 //onClick:Scrollto
+$('nav#gotaquestionclickandask').click(function(){
+	//alert('It works!');
+	$.scrollTo( 'form#contactPellenetdesign', 2500, 'easeOutCirc');
+        // highlight the DIV using jQuery UI effect
+       $('#contactPellenetdesign').effect('highlight', {}, 3000);
+	});
+
 $('li.mainMenu:nth-child(2)').click(function(){
 	//alert('It works!');
 	$.scrollTo( 'form#contactPellenetdesign', 2500, 'easeOutCirc');
         // highlight the DIV using jQuery UI effect
        $('#contactPellenetdesign').effect('highlight', {}, 3000);
 	});
-	$('#formMessage').click(function(){
+	
+$('#formMessage').click(function(){
 		//alert('It works!');
 		$.scrollTo( 'form#contactPellenetdesign', 2500, 'easeOutCirc');
 	        // highlight the DIV using jQuery UI effect
@@ -112,22 +167,22 @@ $('#onetorule h6').fadeOut(0);
 $('#onetorule .readmore').click(function(){
 	//alert('It works!');
 	$(this).fadeOut(0);
-	$(this).parents().children().find('#onetorule .readless').fadeIn(800);
+	$(this).parents().children().find('#onetorule .readless').stop().delay(1000).fadeIn(800);
 	
-	$(this).parents().children().find('#onetorule p:nth-child(2)').fadeOut(0);
+	$(this).parents().children().find('#onetorule p:nth-child(2)').stop().fadeOut(0);
 	
-	$(this).parents().children().find('#onetorule p:nth-child(3)').fadeIn(800);
-	$(this).parents().children().find('#onetorule h6').fadeIn(800);
+	$(this).parents().children().find('#onetorule p:nth-child(3)').stop().fadeIn(1200);
+	$(this).parents().children().find('#onetorule h6').delay(600).stop().fadeIn(800);
 	});
 $('#onetorule .readless').click(function(){
 	//alert('It works!');
 	$(this).fadeOut(0);
-	$(this).parents().children().find('#onetorule .readmore').fadeIn(800);
+	$(this).parents().children().find('#onetorule .readmore').stop().delay(1000).fadeIn(800);
 	
-	$(this).parents().children().find('#onetorule p:nth-child(2)').fadeIn(800);
+	$(this).parents().children().find('#onetorule p:nth-child(2)').stop().fadeIn(800);
 		
-	$(this).parents().children().find('#onetorule p:nth-child(3)').fadeOut(0);
-	$(this).parents().children().find('#onetorule h6').fadeOut(0);
+	$(this).parents().children().find('#onetorule p:nth-child(3)').stop().fadeOut(0);
+	$(this).parents().children().find('#onetorule h6').stop().fadeOut(0);
 
 		
 	

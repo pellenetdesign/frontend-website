@@ -142,6 +142,11 @@ footer ::-webkit-selection { background:#BFEBFF;}
 .fontTypewriter{
     font-family: 'MyUnderwoodRegular', sans-serif;}
 /*End Font classes*/
+
+/*General*/
+.hidden{
+	visibility:hidden;
+	}
 /*--------Header---------*/
 
 ul{
@@ -150,7 +155,10 @@ header#logotype{
 	background:url(../images/bg/logo_960_1024.png) no-repeat;
 	background-size:100%;
 	margin:0 1%;
-	width:98%;}
+	width:98%;
+	height:14em;
+	margin-bottom:1em;
+	}
 nav#mainMenu{
 	float:right;
 	clear:both;
@@ -181,7 +189,12 @@ article#welcome h6{
 	font-size:140%;
 	letter-spacing:0.001em;
 	line-height:1.5em;
-	width:50%;} 
+	width:50%;}
+a img#apple{
+	margin:0 0 0 5px;
+	height:60px;
+	width:60px;
+	border:none;}
 article#welcome p{
 	float:left;
 	width:40%;
@@ -395,8 +408,62 @@ li.miscFooterLinks:hover{
 	width:100%;
 	clear:both;}
 /*---------------------
+Bx-styles Replacements
+---------------------*/
+nav#gotaquestionclickandask{
+	width:50%;}
+ul#whois{
+	background:#fff;
+	float:left;
+	margin:-2em 0 -5em 4em;
+	padding:2em 2em 0 0;;
+	width:8em;
+	height:8em;
+	overflow:hidden;
+	border-radius:7em;
+	box-shadow: 0 0 4px 3px #708C9A, 0 0 2px 6px #000, 0 0 4px 10px #A1B4BD;
+	border:none;
+	color:#3B515E;
+	}
+ul#whois:hover{
+	box-shadow: 0 0 4px 3px #708C9A, 0 0 2px 6px #fff, 0 0 4px 10px #A1B4BD;
+	}
+li.whois{
+	text-align:center;
+	font-size:6em;
+	font-weight:900;
+	font-family:'AmaticSCRegular';
+	margin-top:-10px;
+	color:#3B515E;}
+#gotaquestion{
+	float:left;
+	margin:0.6em 0 0 0.5em;
+	font-size:2em;
+	font-weight:600;
+	font-family:'AmaticSCRegular';
+	line-height:0;
+	color:#3B515E;
+	}
+#clickandask{
+	width:100%;
+	text-align:center;
+	font-size:2em;
+	font-weight:400;
+	line-height:0;
+	margin:2.5em 0 -2.5em 3em;
+	font-family:'AmaticSCRegular';
+	color:#3B515E;
+	}
+.slide{
+	background:url(../images/bg/bg_lighter_lighter.png) repeat;
+	box-shadow: 0 0 0 1px #C2E4EF, 0 0 0 3px #5A6A6F, 0 12px 12px -2px #5A6A6F;
+	height:18em;
+	margin-bottom:2em;
+	overflow:hidden;}
+/*---------------------
 Bx-styles
 ---------------------*/
+
 ul.thumbs{
 	width:60%;}
 .thumbs a{

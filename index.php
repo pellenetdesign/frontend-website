@@ -11,6 +11,15 @@
 <!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
 <!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
 
+<!-- Gradient hack for IE9 and above-->
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+
 <!--//-HTML5 Polyfill for <IE9-//-->
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -116,7 +125,7 @@ function MM_validateForm() { //v4.0
             <hgroup>
                 <h1 id="hello" class="fontMainBold">My name is Jarl</h1>
                 <h6 class="fontHandwrittenBold">
-                I'm a webdesigner, photographer, musician &amp; I'm absolutely bonkers about CSS, HTML5, jQuery and all things Apple
+                I'm a webdesigner, photographer, musician &amp; I'm absolutely bonkers about CSS, HTML5, jQuery and all things <a href="http://www.apple.com" title="Apple Macintosh" target="_blank"><img id="apple" src="images/btn/apple512.jpg" alt="Apple"></a>
                 </h6>
             
                 
@@ -133,11 +142,24 @@ function MM_validateForm() { //v4.0
     
         <h1 class="navTitle">Jarl Explains His way Of Working</h1>
     	<div id="mainContent">
+        <nav id="gotaquestionclickandask">
+        	<h1 class="navTitle">Ask Jarl Pelle Helin</h1>
+            <ul id="whois">
+            	<li class="whois gradient">
+                	<a href="#" title="Ask Jarl"><img src="images/btn/handRed.jpg" alt="Pelle Button off"></a>
+                </li>
+                <li class="whois">
+                	<a href="#" title="Ask Jarl"><img src="images/btn/handGreen.jpg" alt="Pelle Button on"></a>
+                </li>
+            </ul>
+            <h3 id="gotaquestion">Got a question&#63;</h3>
+            <p id="clickandask">Click &amp; ask</p> 
+        </nav>
         
         
         
-            <nav>
-        <h1 class="navTitle">Slider Navigation</h1>
+		<nav class="hidden">
+        	<h1 class="navTitle">Slider Navigation</h1>
                 <ul class="thumbs">
                     <li class="secondMenu">
                         <a href="index.php" title="Who is Jarl">
@@ -155,15 +177,49 @@ function MM_validateForm() { //v4.0
                         </a>
                     </li>
                 </ul>
-            </nav>          
-            
+		</nav>          
+            <article class="slide grid_16">
+                    	<h1 class="navTitle">What makes Jarl tick</h1>
+						<aside class="grid_6 floatLeft">
+                        	<h1 class="navTitle">A photo of a surprised Jarl</h1>
+                            <img src="images/photos/pellePose.png" alt="Jarl Pelle Helin Photo" class="pellePose">
+                        </aside>
+                        
+                        <aside class="grid_3 pull_1 fontHandwrittenRegular margin_vert_2">
+                            <p class="speekCloud_first floatLeft">But!</p>
+                            <p class="speekCloud_middle floatLeft">
+                                ..OH MY?!
+                            </p>
+                            <div class="speekCloud_last floatLeft">
+                                ...
+                            </div>
+                        </aside>
+                        <div id="onetorule" class="grid_7 floatLeft">
+							
+								<h5>
+									One page to rule them all
+								</h5>							
+                                 <p>
+                                 Using Responsive &amp; Progressive Design as the cornerstone building robust web-pages for the future, you will only need one version of your website. Add Drupal, HTML5, jQuery &amp; a few Polyfills to the brew and you get a very powerful, dynamic &amp; fluid website.
+                                 </p> 
+                                <p>
+                                Need a blog, a webportal, a forum or a secure paysite? It has to apply perfectly to your SMART-phone, your tablet and to your desktop?
+                                </p> 
+                                <h6>
+                                I'm here to create your page, the one to rule them all!
+                                </h6>   
+                                
+                                <div class="readless">Read less</div>
+                                <div class="readmore">Read More</div>
+                        </div>
+				</article> 
             
             
         <!--<div class="slider1">-->
-            <ul id="slider1">
+           <!-- <ul id="slider1">-->
             
               <!-- Slide 1 start-->
-              <li id="sliderpage1" class="grid_16 sliderPagePosition">
+             <!-- <li id="sliderpage1" class="grid_16 sliderPagePosition">
               	<article>
                     	<h1 class="navTitle">What makes Jarl tick</h1>
 						<aside class="grid_6 floatLeft">
@@ -186,7 +242,7 @@ function MM_validateForm() { //v4.0
 									One page to rule them all
 								</h5>							
                                  <p>
-                                 Using Responsive &amp; Progressive Design as the cornerstone building robust web-pages for the future, it becomes easy to alter content of a website. Add Drupal, HTML5, jQuery &amp; a few Polyfills to the brew and you get a very powerful, dynamic &amp; fluid website.
+                                 Using Responsive &amp; Progressive Design as the cornerstone building robust web-pages for the future, you will only need one version of your website. Add Drupal, HTML5, jQuery &amp; a few Polyfills to the brew and you get a very powerful, dynamic &amp; fluid website.
                                  </p> 
                                 <p>
                                 Need a blog, a webportal, a forum or a secure paysite? It has to apply perfectly to your SMART-phone, your tablet and to your desktop?
@@ -199,12 +255,12 @@ function MM_validateForm() { //v4.0
                                 <div class="readmore">Read More</div>
                         </div>
 				</article> 
-              <!-- Slide 1 end-->
-              </li>
-              
+             
+              </li>-->
+               <!-- Slide 1 end-->
               
               <!-- Slide 2 start-->
-			<li id="sliderpage2" class="grid_16 sliderPagePosition">
+			<!--<li id="sliderpage2" class="grid_16 sliderPagePosition">
                 <article>
                                         <aside class="grid_4">
                                         	<h1 class="navTitle">A photo of Jarl</h1>
@@ -285,11 +341,11 @@ function MM_validateForm() { //v4.0
 										                                       </div>
                                                         
                 </article>
-            <!-- Slide 2 end-->
-			</li>
-              
+           
+			</li>-->
+               <!-- Slide 2 end-->
               <!-- Slide 3 start-->
-              <li id="sliderpage3" class="grid_16 sliderPagePosition">
+              <!--<li id="sliderpage3" class="grid_16 sliderPagePosition">
               		<article>
                     	<h1 class="navTitle">An example of work done, before &amp; after</h1>
                         <div class="grid_6 floatLeft">
@@ -309,11 +365,11 @@ function MM_validateForm() { //v4.0
                             <h3 class="fontHandwritten">After</h3>
                         </div>
                     </article>
-                <!-- Slide 3 end-->
+                
               </li>
-			<!--end ul#slider1-->
-			</ul>	
-            
+			
+			</ul>	--><!-- Slide 3 end-->
+            <!--end ul#slider1-->
            
     <!--end id="maincontent"-->  
   
@@ -394,7 +450,7 @@ function MM_validateForm() { //v4.0
                        
                         <input type="text" name="subject" id="subject" tabindex="30" autocomplete="off" placeholder="Subject" value="<?php echo $_GET['subject'];?>">
                       
-                        <input type="text" name="verif_box" id="verif_box" tabindex="40" autocomplete="off" placeholder="Type verification image">
+                        <input type="tel" name="verif_box" id="verif_box" tabindex="40" autocomplete="off" placeholder="Type verification image">
                         <img src="Form/verificationimage.php?<?php echo rand(0,9999);?>" alt="verification image, type it in the box" />
                         
                         <textarea name="message" tabindex="70" rows="5" id="message" autocomplete="off" placeholder="Your message"><?php echo $_GET['message'];?></textarea>
@@ -444,9 +500,9 @@ function MM_validateForm() { //v4.0
 
 <script src="js/jquery-1.7.2.min.js"></script>
 <script src="js/jquery-ui-1.8.20.custom.min.js"></script>
-<script src="js/captcha/jquery.captcha.js"></script>
+<!--<script src="js/captcha/jquery.captcha.js"></script>-->
 <script src="js/jQuery.easing.1.3.js"></script>
-<script src="js/jquery.bxSlider.min.js"></script>
+<!--<script src="js/jquery.bxSlider.min.js"></script>-->
 <script src="js/jquery.formalize.min.js"></script>
 <script src="js/animation.js"></script>
 <script src="js/pixastic.custom.js"></script>
